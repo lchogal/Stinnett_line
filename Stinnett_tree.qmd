@@ -1,0 +1,160 @@
+---
+format: 
+  html:
+    theme: default
+    toc: false
+    page-layout: full
+    css: |
+      body {
+        max-width: 100%;
+        margin: 0;
+        padding: 0;
+      }
+      
+      .quarto-container {
+        max-width: 100%;
+        margin: 0;
+        padding: 0;
+      }
+      
+      .family-tree {
+        max-width: 100%;
+        height: auto;
+        margin: 1em 0;
+        border: 1px solid #ddd;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        border-radius: 8px;
+        padding: 0.5em;
+        background-color: #fafafa;
+      }
+      
+      .family-tree svg {
+        width: 100%;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+        min-height: 600px;
+      }
+      
+      .family-tree img {
+        width: 100%;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+        min-height: 600px;
+      }
+      
+      /* Interactive hover effects only for tree connections */
+      .tree-connection {
+        transition: all 0.3s ease;
+        cursor: pointer;
+      }
+      
+      .tree-connection:hover {
+        transform: scale(1.05);
+        filter: drop-shadow(0 4px 8px rgba(0,0,0,0.3));
+      }
+      
+      .tree-connection:hover path {
+        stroke-width: 3 !important;
+      }
+      
+      .tree-connection:hover text {
+        font-weight: bold;
+        font-size: 11px;
+      }
+      
+      .tree-description {
+        margin-top: 1em;
+        padding: 1em;
+        background-color: #f8f9fa;
+        border-left: 4px solid #007bff;
+        font-style: italic;
+      }
+      
+      h1, h2, h3 {
+        color: #333;
+        border-bottom: 2px solid #007bff;
+        padding-bottom: 0.5em;
+        text-align: center;
+        margin: 1em 0;
+      }
+      
+      @media (max-width: 768px) {
+        .family-tree {
+          margin: 0.5em 0;
+          padding: 0.3em;
+        }
+        
+        .family-tree svg,
+        .family-tree img {
+          min-height: 400px;
+        }
+      }
+---
+
+## Stinnett line
+
+::: family-tree
+<object data="output/Stinnett_line.html" type="text/html" style="width: 100%; height: 610px;"></object>
+:::
+
+<br><br>
+
+## Stinnett line/Brunk node
+
+::: family-tree
+<object data="output/Brunk_node.html" type="text/html" style="width: 100%; height: 650px;"></object>
+:::
+
+<br><br>
+
+## Stinnett line/Brunk node/McDonald node
+
+::: family-tree
+<object data="output/Brunk_McDonald_node.html" type="text/html" style="width: 80%; height: 820px;"></object>
+:::
+
+<br><br>
+
+## Stinnett line/Ely node
+
+::: family-tree
+<object data="output/Ely_node.html" type="text/html" style="width: 100%; height: 490px;"></object>
+:::
+
+<br><br>
+
+## Stinnett line/Ely node/Nevitt node
+
+::: family-tree
+<object data="output/Ely_Nevitt_node.html" type="text/html" style="width: 100%; height: 620px;"></object>
+:::
+
+<br><br>
+
+## Stinnett line/Ely node/Beall node
+
+::: family-tree
+<object data="output/Ely_Beall_node.html" type="text/html" style="width: 100%; height: 620px;"></object>
+:::
+
+<br><br>
+
+## Stinnett line/Ely node/Magruder node
+
+::: family-tree
+<object data="output/Ely_Magruder_node.html" type="text/html" style="width: 100%; height: 520px;"></object>
+:::
+
+------------------------------------------------------------------------
+
+  This webpage was created by <a href="https://lchogal.github.io/cv/">Leslie Hodges Gallagher</a>, granddaughter of Sidney William Stinnett (1911-1971). Research relied heavily on AI tools (ChatGPT 5, Claude Opus 4.1) and crowd-sourced information from Geni.com, FamilySearch.org, and FindAGrave.com. The current tree, published August 2025, should be considered a working draft while primary historical sources are verified. Family tree diagrams were generated using Python 3.12.11 with Graphviz 13.0.1, with coding support from Claude Code 1.0.83.  
+  
+  Supporting files: [GitHub repository](https://github.com/lchogal/Stinnett_line)    
+  Contact: [hodges.gallagher@gmail.com](mailto:hodges.gallagher@gmail.com)  
+
+
+
+
+
