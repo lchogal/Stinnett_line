@@ -1,0 +1,66 @@
+digraph family_tree {
+    rankdir=TB;
+    bgcolor=white;
+    margin=0.1;
+    pad=0.1;
+    ranksep=0.3;
+    nodesep=0.2;
+    node [shape=box, style="filled,rounded", fontname="Arial", fontsize=10, fixedsize=false, margin=0.1];
+    edge [color=black, penwidth=1.5];
+    
+    
+    "G0_ME" [label="Col. George Beall, II 🔗\nb. 1729, DC\nd. 1807, DC", fillcolor="gold", style="filled,rounded", peripheries=3, fontname="Arial Bold", URL="https://www.findagrave.com/memorial/37194034/george-beall", target="_blank", tooltip="", class="tree-connection"];
+    "G0_SPOUSE" [label="Elizabeth Magruder 🔗\nb. 1733\nd. 1774", fillcolor="gold", style="filled,rounded", peripheries=3, fontname="Arial Bold", URL="https://www.findagrave.com/memorial/37194034/george-beall", target="_blank", tooltip="", class="tree-connection"];
+    "G1_FATHER" [label="Capt. Alexander Magruder 🔗\nb. 1706, MD\nd. 1751, MD", fillcolor="lightcoral", style="filled,rounded", URL="https://www.geni.com/people/Capt-Alexander-Magruder/6000000012611507676", target="_blank", tooltip=""];
+    "G1_MOTHER" [label="Ann Wade 🔗\nb. ~1708, MD\nd. after 1752, MD", fillcolor="lightcoral", style="filled,rounded", URL="https://www.geni.com/people/Ann-Magruder/6000000008248491315", target="_blank", tooltip=""];
+    "G2_MAGRUDER" [label="Col. Samuel Magruder 🔗\nb. 1661, MD\nd. 1711, MD", fillcolor="lightsteelblue", style="filled,rounded", URL="https://www.geni.com/people/Col-Samuel-Magruder/5358724398280112491", target="_blank", tooltip=""];
+    "G2_MILLS" [label="Sarah Mills 🔗\nb. ~1670, MD\nd. 1734, MD", fillcolor="lightsteelblue", style="filled,rounded", URL="https://www.geni.com/people/Sarah-Magruder/6000000006900951171", target="_blank", tooltip=""];
+    "G2_WADE" [label="Robert Wade 🔗\nb. 1666, MD\nd. 1713, MD", fillcolor="lightsteelblue", style="filled,rounded", URL="https://www.geni.com/people/Robert-Wade-Justice-of-Prince-George-s-County-Maryland/6000000008248491383", target="_blank", tooltip=""];
+    "G2_SPRIGG" [label="Elizabeth Sprigg 🔗\nb. 1679, MD\nd. 1713, MD", fillcolor="lightsteelblue", style="filled,rounded", URL="https://www.geni.com/people/Elizabeth-Wade/6000000000652560041", target="_blank", tooltip=""];
+    "G3_MAGRUDER" [label="Alexander Magruder 🔗\nb. 1610, Scotland\nd. 1677, MD", fillcolor="lightgreen", style="filled,rounded", URL="https://www.geni.com/people/Alexander-Magruder/6000000003023599662", target="_blank", tooltip=""];
+    "G3_UNKNOWN" [label="Sarah [unknown] 🔗\nb. 1635, England\nd. 1711, MD", fillcolor="lightgreen", style="filled,rounded", URL="https://www.geni.com/people/Sarah-Magruder/6000000041118402554", target="_blank", tooltip=""];
+    "G3_MILLS" [label="William Samuel(?) Mills 🔗\nb. 1637, England\nd. 1676, MD", fillcolor="lightgreen", style="filled,rounded", URL="https://www.geni.com/people/William-Mills/6000000004086559494", target="_blank", tooltip=""];
+    "G3_WRIGHT" [label="Tabitha Wright 🔗\nb. before 1647, England\nd. 1700, MD", fillcolor="lightgreen", style="filled,rounded", URL="https://www.geni.com/people/Tabitha-Blanford/6000000004086559502", target="_blank", tooltip=""];
+    "G3_WADE" [label="Zacharias Wade 🔗\nb. 1627, England\nd. 1677, MD", fillcolor="lightgreen", style="filled,rounded", URL="https://www.geni.com/people/Zachary-Zacharias-Wade/6000000003682959866", target="_blank", tooltip=""];
+    "G3_SPRIGG" [label="Capt. Thomas Sprigg 🔗\nb. 1704, England\nd. 1704, MD", fillcolor="lightgreen", style="filled,rounded", URL="https://www.geni.com/people/Capt-Thomas-Sprigg/6000000002183087243", target="_blank", tooltip=""];
+    "G3_NUTHALL" [label="Eleanor Nuthall 🔗\nb. ~1646, MD\nd. 1699, MD", fillcolor="lightgreen", style="filled,rounded", URL="https://freepages.rootsweb.com/~codd/genealogy/nuthall9.14.pdf", target="_blank", tooltip=""];
+    "G4_NUTHALL" [label="John Nuthall 🔗\nb. ~1618, England\nd. 1667, MD", fillcolor="wheat", style="filled,rounded", URL="https://freepages.rootsweb.com/~codd/genealogy/nuthall9.14.pdf", target="_blank", tooltip=""];
+    "G4_BACON" [label="Elizabeth Bacon 🔗\nb. ~1609, England\nd. ~1653-1660, MD", fillcolor="wheat", style="filled,rounded", URL="https://freepages.rootsweb.com/~codd/genealogy/nuthall9.14.pdf", target="_blank", tooltip=""];
+    
+    // Tree navigation connection boxes
+    
+    // Marriage relationships and rank constraints
+    {rank=same; "G0_ME"; "G0_SPOUSE"};
+    "G0_ME" -> "G0_SPOUSE" [dir=none, color=black, style=dashed, constraint=false, label="m. 1748", fontsize=10, fontcolor=black];
+    {rank=same; "G1_FATHER"; "G1_MOTHER"};
+    "G1_FATHER" -> "G1_MOTHER" [dir=none, color=black, style=dashed, constraint=false];
+    {rank=same; "G2_MAGRUDER"; "G2_MILLS"};
+    "G2_MAGRUDER" -> "G2_MILLS" [dir=none, color=black, style=dashed, constraint=false];
+    {rank=same; "G2_WADE"; "G2_SPRIGG"};
+    "G2_WADE" -> "G2_SPRIGG" [dir=none, color=black, style=dashed, constraint=false];
+    {rank=same; "G3_MAGRUDER"; "G3_UNKNOWN"};
+    "G3_MAGRUDER" -> "G3_UNKNOWN" [dir=none, color=black, style=dashed, constraint=false];
+    {rank=same; "G3_MILLS"; "G3_WRIGHT"};
+    "G3_MILLS" -> "G3_WRIGHT" [dir=none, color=black, style=dashed, constraint=false];
+    {rank=same; "G3_SPRIGG"; "G3_NUTHALL"};
+    "G3_SPRIGG" -> "G3_NUTHALL" [dir=none, color=black, style=dashed, constraint=false];
+    {rank=same; "G4_NUTHALL"; "G4_BACON"};
+    "G4_NUTHALL" -> "G4_BACON" [dir=none, color=black, style=dashed, constraint=false];
+    
+    // Parent-child relationships
+    "G1_FATHER" -> "G0_SPOUSE";
+    "G1_MOTHER" -> "G0_SPOUSE";
+    "G2_MAGRUDER" -> "G1_FATHER";
+    "G2_MILLS" -> "G1_FATHER";
+    "G2_WADE" -> "G1_MOTHER";
+    "G2_SPRIGG" -> "G1_MOTHER";
+    "G3_MAGRUDER" -> "G2_MAGRUDER";
+    "G3_UNKNOWN" -> "G2_MAGRUDER";
+    "G3_MILLS" -> "G2_MILLS";
+    "G3_WRIGHT" -> "G2_MILLS";
+    "G3_WADE" -> "G2_WADE";
+    "G3_SPRIGG" -> "G2_SPRIGG";
+    "G3_NUTHALL" -> "G2_SPRIGG";
+    "G4_NUTHALL" -> "G3_NUTHALL";
+    "G4_BACON" -> "G3_NUTHALL";
+}

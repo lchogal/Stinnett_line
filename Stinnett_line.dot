@@ -1,0 +1,78 @@
+digraph family_tree {
+    rankdir=TB;
+    bgcolor=white;
+    margin=0.1;
+    pad=0.1;
+    ranksep=0.3;
+    nodesep=0.2;
+    node [shape=box, style="filled,rounded", fontname="Arial", fontsize=10, fixedsize=false, margin=0.1];
+    edge [color=black, penwidth=1.5];
+    
+    
+    "G0_ME" [label="Sidney William Stinnett\nb. 1911, AR\nd. 1971, Germany", fillcolor="gold", style="filled,rounded", peripheries=3, fontname="Arial Bold", tooltip="", class="tree-connection"];
+    "G0_SPOUSE" [label="Marjorie Inez Smith\nb. 1920, AR\nd. 1996, TX", fillcolor="gold", style="filled,rounded", tooltip=""];
+    "G1_FATHER" [label="James Robert Stinnett 🔗\nb. 1882, AR\nd. 1970, AR", fillcolor="lightcoral", style="filled,rounded", URL="https://ancestors.familysearch.org/en/94ZN-LGR/james-robert-stinnett-1882-1970", target="_blank", tooltip=""];
+    "G1_MOTHER" [label="Lucy Alice Smith 🔗\nb. 1883, AR\nd. 1929, AR", fillcolor="lightcoral", style="filled,rounded", URL="https://ancestors.familysearch.org/en/L6PQ-JNL/lucy-alice-smith-1883-1929", target="_blank", tooltip=""];
+    "G2_PATERNAL_GF" [label="Franklin Pierce Stinnett 🔗\nb. 1852, AR\nd. 1899, AR", fillcolor="lightsteelblue", style="filled,rounded", URL="https://ancestors.familysearch.org/en/LVY3-NS2/franklin-pierce-stinnett-1852-1899", target="_blank", tooltip=""];
+    "G2_PATERNAL_GM" [label="Lutishia \"Precious\" J Ely 🔗\nb. 1866, AR\nd. 1940, AR", fillcolor="lightsteelblue", style="filled,rounded", URL="https://ancestors.familysearch.org/en/L6PQ-J8S/mary-elizabeth-ely-1867-1896", target="_blank", tooltip=""];
+    "G2_MATERNAL_GF" [label="William C. Smith 🔗\nb. 1852, TX\nd. 1916, AR", fillcolor="lightsteelblue", style="filled,rounded", URL="https://ancestors.familysearch.org/en/LHZY-JJN/william-c-smith-1852-1916", target="_blank", tooltip=""];
+    "G2_MATERNAL_GM" [label="Victoria E. Pickett 🔗\nb. 1858, AR\nd. 1945, AR", fillcolor="lightsteelblue", style="filled,rounded", URL="https://ancestors.familysearch.org/en/KLFH-LP8/victoria-e-pickett-1858-1945", target="_blank", tooltip=""];
+    "G3_STINNETT_GGF" [label="Judge James Monroe Stinnett 🔗\nb. 1820, TN\nd. 1900, AR", fillcolor="lightgreen", style="filled,rounded", URL="https://www.findagrave.com/memorial/208534647/james-monroe-stinnett?utm_source=chatgpt.com", target="_blank", tooltip=""];
+    "G3_PICKETT_GGM" [label="Joanna Eliza Jane Pickett 🔗\nb. 1830, TN\nd. 1898, AR", fillcolor="lightgreen", style="filled,rounded", URL="https://www.findagrave.com/memorial/208534639/joanna_eliza_jane-stinnett", target="_blank", tooltip=""];
+    "G3_ELY_GGF" [label="Rev. Robert N. Ely 🔗\nb. 1842, VA\nd. 1880, AR", fillcolor="lightgreen", style="filled,rounded", peripheries=3, fontname="Arial Bold", URL="https://ancestors.familysearch.org/en/L89W-T4N/rev-robert-n-ely-1842-1880", target="_blank", tooltip="", class="tree-connection"];
+    "G3_BRUNK_GGM" [label="Charlotte Ann Brunk 🔗\nb. 1842, VA\nd. 1931, AR", fillcolor="lightgreen", style="filled,rounded", peripheries=3, fontname="Arial Bold", URL="https://ancestors.familysearch.org/en/K4X3-J43/charlotte-ann-brunk-ely-1842-1931", target="_blank", tooltip="", class="tree-connection"];
+    "G3_PICKET_GGF" [label="James Montgomery Pickett 🔗\nb. 1818, TN\nd. 1895, AR", fillcolor="lightgreen", style="filled,rounded", URL="https://ancestors.familysearch.org/en/K2JG-7PJ/james-montgomery-pickett-1818-1895", target="_blank", tooltip=""];
+    "G3_DAVENPORT_GGM" [label="Julia Ann Davenport 🔗\nb. 1824\nd. 1907", fillcolor="lightgreen", style="filled,rounded", URL="https://ancestors.familysearch.org/en/9V5Y-5BX/julia-ann-davenport-1824-1907", target="_blank", tooltip=""];
+    "G4_STINNETT" [label="William Stinnett\nb. XXXX\nd. 1847, TN", fillcolor="wheat", style="filled,rounded", tooltip=""];
+    "G4_SMITH" [label="Catherine Smith\nb. 1801, TN\nd. 1848, TN", fillcolor="wheat", style="filled,rounded", tooltip=""];
+    "G4_PICKET" [label="Edward Charles Pickett 🔗\nb. 1790, TN\nd. 1849, TN", fillcolor="wheat", style="filled,rounded", URL="https://ancestors.familysearch.org/en/LJJN-QYZ/edward-charles-pickett-1790-1849", target="_blank", tooltip=""];
+    "G4_SANDERSON" [label="Elizabeth Sanderson\nb. 1791\nd. 1850 or 1860", fillcolor="wheat", style="filled,rounded", tooltip=""];
+    "G5_PICKET" [label="Edward Pickett\nb. ~1765\nd. ~1827", fillcolor="plum", style="filled,rounded", tooltip=""];
+    "G5_DOLITTLE" [label="Elizabeth \"Betsy\" Dolittle\nb. ~1775\nd. ~1859", fillcolor="plum", style="filled,rounded", tooltip=""];
+    
+    // Tree navigation connection boxes
+    
+    // Marriage relationships and rank constraints
+    {rank=same; "G0_ME"; "G0_SPOUSE"};
+    "G0_ME" -> "G0_SPOUSE" [dir=none, color=black, style=dashed, constraint=false, label="m. 1939, AR", fontsize=10, fontcolor=black];
+    {rank=same; "G1_FATHER"; "G1_MOTHER"};
+    "G1_FATHER" -> "G1_MOTHER" [dir=none, color=black, style=dashed, constraint=false, label="m. 1905, AR", fontsize=10, fontcolor=black];
+    {rank=same; "G2_PATERNAL_GF"; "G2_PATERNAL_GM"};
+    "G2_PATERNAL_GF" -> "G2_PATERNAL_GM" [dir=none, color=black, style=dashed, constraint=false, label="m. 1881, AR", fontsize=10, fontcolor=black];
+    {rank=same; "G2_MATERNAL_GF"; "G2_MATERNAL_GM"};
+    "G2_MATERNAL_GF" -> "G2_MATERNAL_GM" [dir=none, color=black, style=dashed, constraint=false, label="m. ~1875, AR", fontsize=10, fontcolor=black];
+    {rank=same; "G3_STINNETT_GGF"; "G3_PICKETT_GGM"};
+    "G3_STINNETT_GGF" -> "G3_PICKETT_GGM" [dir=none, color=black, style=dashed, constraint=false];
+    {rank=same; "G3_ELY_GGF"; "G3_BRUNK_GGM"};
+    "G3_ELY_GGF" -> "G3_BRUNK_GGM" [dir=none, color=black, style=dashed, constraint=false];
+    {rank=same; "G3_PICKET_GGF"; "G3_DAVENPORT_GGM"};
+    "G3_PICKET_GGF" -> "G3_DAVENPORT_GGM" [dir=none, color=black, style=dashed, constraint=false];
+    {rank=same; "G4_STINNETT"; "G4_SMITH"};
+    "G4_STINNETT" -> "G4_SMITH" [dir=none, color=black, style=dashed, constraint=false];
+    {rank=same; "G4_PICKET"; "G4_SANDERSON"};
+    "G4_PICKET" -> "G4_SANDERSON" [dir=none, color=black, style=dashed, constraint=false];
+    {rank=same; "G5_PICKET"; "G5_DOLITTLE"};
+    "G5_PICKET" -> "G5_DOLITTLE" [dir=none, color=black, style=dashed, constraint=false];
+    
+    // Parent-child relationships
+    "G1_FATHER" -> "G0_ME";
+    "G1_MOTHER" -> "G0_ME";
+    "G2_PATERNAL_GF" -> "G1_FATHER";
+    "G2_PATERNAL_GM" -> "G1_FATHER";
+    "G2_MATERNAL_GF" -> "G1_MOTHER";
+    "G2_MATERNAL_GM" -> "G1_MOTHER";
+    "G3_STINNETT_GGF" -> "G2_PATERNAL_GF";
+    "G3_PICKETT_GGM" -> "G2_PATERNAL_GF";
+    "G3_ELY_GGF" -> "G2_PATERNAL_GM";
+    "G3_BRUNK_GGM" -> "G2_PATERNAL_GM";
+    "G3_PICKET_GGF" -> "G2_MATERNAL_GM";
+    "G3_DAVENPORT_GGM" -> "G2_MATERNAL_GM";
+    "G4_STINNETT" -> "G3_STINNETT_GGF";
+    "G4_SMITH" -> "G3_STINNETT_GGF";
+    "G4_PICKET" -> "G3_PICKETT_GGM";
+    "G4_SANDERSON" -> "G3_PICKETT_GGM";
+    "G4_PICKET" -> "G3_PICKET_GGF";
+    "G4_SANDERSON" -> "G3_PICKET_GGF";
+    "G5_PICKET" -> "G4_PICKET";
+    "G5_DOLITTLE" -> "G4_PICKET";
+}

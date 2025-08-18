@@ -1,0 +1,82 @@
+digraph family_tree {
+    rankdir=TB;
+    bgcolor=white;
+    margin=0.1;
+    pad=0.1;
+    ranksep=0.3;
+    nodesep=0.2;
+    node [shape=box, style="filled,rounded", fontname="Arial", fontsize=10, fixedsize=false, margin=0.1];
+    edge [color=black, penwidth=1.5];
+    
+    
+    "G0_ME" [label="Charlotte Ann Brunk 🔗\nb. 1842, VA\nd. 1931, AR", fillcolor="gold", style="filled,rounded", peripheries=3, fontname="Arial Bold", URL="https://ancestors.familysearch.org/en/K4X3-J43/charlotte-ann-brunk-ely-1842-1931", target="_blank", tooltip="", class="tree-connection"];
+    "G0_SPOUSE" [label="Rev. Robert N. Ely 🔗\nb. 1842, VA\nd. 1880, AR", fillcolor="gold", style="filled,rounded", peripheries=3, fontname="Arial Bold", URL="https://ancestors.familysearch.org/en/L89W-T4N/rev-robert-n-ely-1842-1880", target="_blank", tooltip="", class="tree-connection"];
+    "G1_FATHER" [label="Christopher Brunk 🔗\nb. 1810, VA\nd. 1895, AR", fillcolor="lightcoral", style="filled,rounded", URL="https://ancestors.familysearch.org/en/L7FY-DXJ/christopher-%22christy%22-brunk-1810-1895", target="_blank", tooltip=""];
+    "G1_MOTHER" [label="Hannah McDonald 🔗\nd. 1810, VA\nd. 1886, AR", fillcolor="lightcoral", style="filled,rounded", peripheries=3, fontname="Arial Bold", URL="https://ancestors.familysearch.org/en/L7GK-9QR/hannah-mcdonald-brunk-1810-1886", target="_blank", tooltip="", class="tree-connection"];
+    "G2_PATERNAL_GF" [label="Jacob Brunk 🔗\nb. 1784, VA\nd. 1869, VA", fillcolor="lightsteelblue", style="filled,rounded", URL="https://ancestors.familysearch.org/en/LDF4-1L3/jacob-brunk-1784-1869", target="_blank", tooltip=""];
+    "G2_PATERNAL_GM" [label="Nancy Ann Shank 🔗\nb. 1787, VA\nd. 1869, VA", fillcolor="lightsteelblue", style="filled,rounded", URL="https://ancestors.familysearch.org/en/L764-YV6/nancy-ann-shank-1787-1869", target="_blank", tooltip=""];
+    "G3_PATERNAL_GGF" [label="John Brunk 🔗\nb. 1760, PA\nd. 1781, MD", fillcolor="lightgreen", style="filled,rounded", URL="https://ancestors.familysearch.org/en/L2W8-8QJ/john-brunk-1760-1811", target="_blank", tooltip=""];
+    "G3_PATERNAL_GGM" [label="Mary Magdalene [unknown] 🔗\nb. 1763\nd. 1717", fillcolor="lightgreen", style="filled,rounded", URL="https://ancestors.familysearch.org/en/L764-Y1P/mary-magdalene-brunk-1763-1817", target="_blank", tooltip=""];
+    "G3_MATERNAL_GGF" [label="Christian Shank 🔗\nb. 1764, VA\nd. 1834, VA", fillcolor="lightgreen", style="filled,rounded", URL="https://ancestors.familysearch.org/en/LHVN-DWX/christian-shank-1764-1834", target="_blank", tooltip=""];
+    "G3_MATERNAL_GGM" [label="Catherine Beckner 🔗\nb. 1762, PA\nd. 1830, VA", fillcolor="lightgreen", style="filled,rounded", URL="https://ancestors.familysearch.org/en/KL6P-79M/catherine-beckner-1762-1830", target="_blank", tooltip=""];
+    "G4_BRUNK_GGGF" [label="Jacob Brunk I 🔗\nb. 1738, PA\nd. 1781, MD", fillcolor="wheat", style="filled,rounded", URL="https://ancestors.familysearch.org/en/LVPV-DQ4/jacob-brunk-i-1738-1787", target="_blank", tooltip=""];
+    "G4_STOUFFER_GGGM" [label="Anna Maria Stouffer 🔗\nb. 1740, PA\nd. 1798, VA", fillcolor="wheat", style="filled,rounded", URL="https://ancestors.familysearch.org/en/LV5X-7QL/anna-maria-stouffer-1740-1798", target="_blank", tooltip=""];
+    "G4_SCHENK_GGGF" [label="Johanne Schenck\nb. 1717, PA\nd. 1791, PA", fillcolor="wheat", style="filled,rounded", tooltip=""];
+    "G4_MEYER_GGGM" [label="Mary Meyer 🔗\nb. 1718, PA\nd. 1834, VA", fillcolor="wheat", style="filled,rounded", URL="https://ancestors.familysearch.org/en/LCR7-4B2/mary-meyer-1718-1834", target="_blank", tooltip=""];
+    "G5_BECKNER_GGGF" [label="Johann Nicholas Beckner 🔗\nb. 1725, Germany\nd. 1812, VA", fillcolor="wheat", style="filled,rounded", URL="https://ancestors.familysearch.org/en/PSXM-S9L/johann-nicholas-beckner-1725-1812", target="_blank", tooltip=""];
+    "G5_KILLIAN_GGGM" [label="Anna Maria Killian 🔗\nb. 1724, Germany\nd. 1812, VA", fillcolor="wheat", style="filled,rounded", URL="https://ancestors.familysearch.org/en/LX7X-ZS3/anna-maria-killian-1724-1812", target="_blank", tooltip=""];
+    "G5_STOUFFER_GGGGF" [label="Jacob Stauffer\nb. 1713, Germany\n1768, PA", fillcolor="plum", style="filled,rounded", tooltip=""];
+    "G5_SCHETTNER_GGGGM" [label="Magdalena Hess Schetter\nb. ~1715\nd. ~1768", fillcolor="plum", style="filled,rounded", tooltip=""];
+    "G5_SCHENK_GGGGF" [label="Michael Schenk 🔗\nb. 1695, Germany\nd. 1759, PA", fillcolor="plum", style="filled,rounded", URL="https://ancestors.familysearch.org/en/LTBM-BS3/michael-schenck-1695-1759", target="_blank", tooltip=""];
+    "G5_SCHLOETZER_GGGGM" [label="Anna Maria Schloetzer\nb. 1703\nd. 1759", fillcolor="plum", style="filled,rounded", tooltip=""];
+    "G5_MEYER_GGGGF" [label="Christian Meyer, Jr. 🔗\nb. 1676, Germany\nd. before 1751, PA", fillcolor="plum", style="filled,rounded", URL="https://www.geni.com/people/Christian-Meyer-Sr/6000000002979732410?utm_source=chatgpt.com", target="_blank", tooltip=""];
+    "G5_BERGEY_GGGGM" [label="Anna Barbara Bergey 🔗\nb. 1677, Germany\nd. 1748, PA", fillcolor="plum", style="filled,rounded", URL="https://www.geni.com/people/Anna-Meyer/6000000002980069278", target="_blank", tooltip=""];
+    
+    // Tree navigation connection boxes
+    
+    // Marriage relationships and rank constraints
+    {rank=same; "G0_ME"; "G0_SPOUSE"};
+    "G0_ME" -> "G0_SPOUSE" [dir=none, color=black, style=dashed, constraint=false];
+    {rank=same; "G1_FATHER"; "G1_MOTHER"};
+    "G1_FATHER" -> "G1_MOTHER" [dir=none, color=black, style=dashed, constraint=false, label="m. 1834, VA", fontsize=10, fontcolor=black];
+    {rank=same; "G2_PATERNAL_GF"; "G2_PATERNAL_GM"};
+    "G2_PATERNAL_GF" -> "G2_PATERNAL_GM" [dir=none, color=black, style=dashed, constraint=false, label="m. 1806, VA", fontsize=10, fontcolor=black];
+    {rank=same; "G3_PATERNAL_GGF"; "G3_PATERNAL_GGM"};
+    "G3_PATERNAL_GGF" -> "G3_PATERNAL_GGM" [dir=none, color=black, style=dashed, constraint=false];
+    {rank=same; "G3_MATERNAL_GGF"; "G3_MATERNAL_GGM"};
+    "G3_MATERNAL_GGF" -> "G3_MATERNAL_GGM" [dir=none, color=black, style=dashed, constraint=false];
+    {rank=same; "G4_BRUNK_GGGF"; "G4_STOUFFER_GGGM"};
+    "G4_BRUNK_GGGF" -> "G4_STOUFFER_GGGM" [dir=none, color=black, style=dashed, constraint=false];
+    {rank=same; "G4_SCHENK_GGGF"; "G4_MEYER_GGGM"};
+    "G4_SCHENK_GGGF" -> "G4_MEYER_GGGM" [dir=none, color=black, style=dashed, constraint=false];
+    {rank=same; "G5_BECKNER_GGGF"; "G5_KILLIAN_GGGM"};
+    "G5_BECKNER_GGGF" -> "G5_KILLIAN_GGGM" [dir=none, color=black, style=dashed, constraint=false];
+    {rank=same; "G5_STOUFFER_GGGGF"; "G5_SCHETTNER_GGGGM"};
+    "G5_STOUFFER_GGGGF" -> "G5_SCHETTNER_GGGGM" [dir=none, color=black, style=dashed, constraint=false];
+    {rank=same; "G5_SCHENK_GGGGF"; "G5_SCHLOETZER_GGGGM"};
+    "G5_SCHENK_GGGGF" -> "G5_SCHLOETZER_GGGGM" [dir=none, color=black, style=dashed, constraint=false];
+    {rank=same; "G5_MEYER_GGGGF"; "G5_BERGEY_GGGGM"};
+    "G5_MEYER_GGGGF" -> "G5_BERGEY_GGGGM" [dir=none, color=black, style=dashed, constraint=false];
+    
+    // Parent-child relationships
+    "G1_FATHER" -> "G0_ME";
+    "G1_MOTHER" -> "G0_ME";
+    "G2_PATERNAL_GF" -> "G1_FATHER";
+    "G2_PATERNAL_GM" -> "G1_FATHER";
+    "G3_PATERNAL_GGF" -> "G2_PATERNAL_GF";
+    "G3_PATERNAL_GGM" -> "G2_PATERNAL_GF";
+    "G3_MATERNAL_GGF" -> "G2_PATERNAL_GM";
+    "G3_MATERNAL_GGM" -> "G2_PATERNAL_GM";
+    "G4_BRUNK_GGGF" -> "G3_PATERNAL_GGF";
+    "G4_STOUFFER_GGGM" -> "G3_PATERNAL_GGF";
+    "G4_SCHENK_GGGF" -> "G3_MATERNAL_GGF";
+    "G4_MEYER_GGGM" -> "G3_MATERNAL_GGF";
+    "G5_BECKNER_GGGF" -> "G3_MATERNAL_GGM";
+    "G5_KILLIAN_GGGM" -> "G3_MATERNAL_GGM";
+    "G5_STOUFFER_GGGGF" -> "G4_STOUFFER_GGGM";
+    "G5_SCHETTNER_GGGGM" -> "G4_STOUFFER_GGGM";
+    "G5_SCHENK_GGGGF" -> "G4_SCHENK_GGGF";
+    "G5_SCHLOETZER_GGGGM" -> "G4_SCHENK_GGGF";
+    "G5_MEYER_GGGGF" -> "G4_MEYER_GGGM";
+    "G5_BERGEY_GGGGM" -> "G4_MEYER_GGGM";
+}

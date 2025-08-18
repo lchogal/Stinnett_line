@@ -1,0 +1,76 @@
+digraph family_tree {
+    rankdir=TB;
+    bgcolor=white;
+    margin=0.1;
+    pad=0.1;
+    ranksep=0.3;
+    nodesep=0.2;
+    node [shape=box, style="filled,rounded", fontname="Arial", fontsize=10, fixedsize=false, margin=0.1];
+    edge [color=black, penwidth=1.5];
+    
+    
+    "G0_ME" [label="Rev. Robert N. Ely 🔗\nb. 1842, VA\nd. 1880, AR", fillcolor="gold", style="filled,rounded", peripheries=3, fontname="Arial Bold", URL="https://ancestors.familysearch.org/en/L89W-T4N/rev-robert-n-ely-1842-1880", target="_blank", tooltip="", class="tree-connection"];
+    "G0_SPOUSE" [label="Charlotte Ann Brunk 🔗\nb. 1842, VA\nd. 1931, AR", fillcolor="gold", style="filled,rounded", peripheries=3, fontname="Arial Bold", URL="https://ancestors.familysearch.org/en/K4X3-J43/charlotte-ann-brunk-ely-1842-1931", target="_blank", tooltip="", class="tree-connection"];
+    "G1_FATHER" [label="George Robert Ely 🔗\nb. 1897, VA\nd. 1880, AR", fillcolor="lightcoral", style="filled,rounded", URL="https://ancestors.familysearch.org/en/L89W-T7Y/george-robert-ely-1797-1886", target="_blank", tooltip=""];
+    "G1_MOTHER" [label="Mary Blankenship 🔗\nb. 1807, VA\nd. 1870, VA", fillcolor="lightcoral", style="filled,rounded", URL="https://ancestors.familysearch.org/en/L89W-R49/mary-blankenship-1807-1870", target="_blank", tooltip=""];
+    "G2_PATERNAL_GF" [label="Robert Ely Sr. 🔗\nb. 1773, VA\nd. 1843, VA", fillcolor="lightsteelblue", style="filled,rounded", URL="https://www.geni.com/people/Robert-Ely-Sr/6000000005427539473", target="_blank", tooltip=""];
+    "G2_PATERNAL_GM" [label="Ann McPherson 🔗\nb. 1774, VA\nd. 1846, VA", fillcolor="lightsteelblue", style="filled,rounded", URL="https://www.geni.com/people/Ann-Ely/6000000001723425365", target="_blank", tooltip=""];
+    "G2_MATERNAL_GF" [label="Arthur M. Blankenship 🔗\nb. 1770, VA\nd. 1865, VA", fillcolor="lightsteelblue", style="filled,rounded", URL="https://ancestors.familysearch.org/en/LZB9-PQ7/arthur-m.-blankenship-1770-1865", target="_blank", tooltip=""];
+    "G2_MATERNAL_GM" [label="Mary Francis Munsey 🔗\nb. 1774, VA\nd. 1825, VA", fillcolor="lightsteelblue", style="filled,rounded", URL="https://ancestors.familysearch.org/en/L6S9-XXK/mary-frances-munsey-1774-1825", target="_blank", tooltip=""];
+    "G3_ELY_GGF" [label="Thomas Ely 🔗\nb. ~1725, England\nd. 1782, VA", fillcolor="lightgreen", style="filled,rounded", URL="https://www.findagrave.com/memorial/49964320/thomas-ely", target="_blank", tooltip=""];
+    "G3_SMITH_GGM" [label="Jane Elizabeth Smith 🔗\nb. 1727, Ireland\nd. 1846, VA", fillcolor="lightgreen", style="filled,rounded", URL="https://www.geni.com/people/Jane-Ely/4630544678660020277", target="_blank", tooltip=""];
+    "G3_MCPHERSON_GGF" [label="Alexander McPherson 🔗\nb. 1735, MD\nd. 1815, VA", fillcolor="lightgreen", style="filled,rounded", URL="https://www.geni.com/people/Alexander-McPherson/6000000001868035392", target="_blank", tooltip=""];
+    "G3_BEALL_GGM" [label="Mary Elizabeth Beall 🔗\nb. 1746, MD\nd. 1808, VA", fillcolor="lightgreen", style="filled,rounded", URL="https://www.geni.com/people/Mary-McPherson/6000000000249736236", target="_blank", tooltip=""];
+    "G3_BLANKENSHIP_GGF" [label="Noel Tom Blankenship 🔗\nb. 1746, VA\nd. 1794, VA", fillcolor="lightgreen", style="filled,rounded", URL="https://ancestors.familysearch.org/en/LZB9-PQ7/arthur-m.-blankenship-1770-1865", target="_blank", tooltip=""];
+    "G3_BEASLEY_GGM" [label="Mary Elizabeth Beasley 🔗\nb. 1750, VA\nd. 1845, VA", fillcolor="lightgreen", style="filled,rounded", URL="https://ancestors.familysearch.org/en/LZLV-4T5/mary-elizabeth-beasley-1750-1845", target="_blank", tooltip=""];
+    "G3_MUNSEY_GGF" [label="John Skidmore Munsey\nb. 1735\nd. 1797", fillcolor="lightgreen", style="filled,rounded", tooltip=""];
+    "G3_SCOTT_GGM" [label="Mary Pickens Scott\nb. 1738\nd. 1797", fillcolor="lightgreen", style="filled,rounded", tooltip=""];
+    "G4_MCPHERSON" [label="Daniel McPherson 🔗\nb. 1701, Scotland\nd. before 1740, MD", fillcolor="wheat", style="filled,rounded", URL="https://www.geni.com/people/Daniel-McPherson/375865516550012633", target="_blank", tooltip=""];
+    "G4_NEVITT" [label="Elizabeth Nevitt 🔗\nb. 1695, MD\nd. ~1779, MD", fillcolor="wheat", style="filled,rounded", peripheries=3, fontname="Arial Bold", URL="https://www.geni.com/people/Elizabeth-McPherson/375867648760011008", target="_blank", tooltip="", class="tree-connection"];
+    "G4_BEALL" [label="Col. George Beall, II 🔗\nb. 1729, DC\nd. 1807, DC", fillcolor="wheat", style="filled,rounded", peripheries=3, fontname="Arial Bold", URL="https://www.findagrave.com/memorial/37194034/george-beall", target="_blank", tooltip="", class="tree-connection"];
+    "G4_MAGRUDER" [label="Elizabeth Magruder 🔗\nb. 1733\nd. 1774", fillcolor="wheat", style="filled,rounded", peripheries=3, fontname="Arial Bold", URL="https://www.geni.com/people/Ann-Bell/6000000003703768596", target="_blank", tooltip="", class="tree-connection"];
+    
+    // Tree navigation connection boxes
+    
+    // Marriage relationships and rank constraints
+    {rank=same; "G0_ME"; "G0_SPOUSE"};
+    "G0_ME" -> "G0_SPOUSE" [dir=none, color=black, style=dashed, constraint=false];
+    {rank=same; "G1_FATHER"; "G1_MOTHER"};
+    "G1_FATHER" -> "G1_MOTHER" [dir=none, color=black, style=dashed, constraint=false, label="m. 1823, VA", fontsize=10, fontcolor=black];
+    {rank=same; "G2_PATERNAL_GF"; "G2_PATERNAL_GM"};
+    "G2_PATERNAL_GF" -> "G2_PATERNAL_GM" [dir=none, color=black, style=dashed, constraint=false];
+    {rank=same; "G2_MATERNAL_GF"; "G2_MATERNAL_GM"};
+    "G2_MATERNAL_GF" -> "G2_MATERNAL_GM" [dir=none, color=black, style=dashed, constraint=false, label="m. 1794", fontsize=10, fontcolor=black];
+    {rank=same; "G3_ELY_GGF"; "G3_SMITH_GGM"};
+    "G3_ELY_GGF" -> "G3_SMITH_GGM" [dir=none, color=black, style=dashed, constraint=false];
+    {rank=same; "G3_MCPHERSON_GGF"; "G3_BEALL_GGM"};
+    "G3_MCPHERSON_GGF" -> "G3_BEALL_GGM" [dir=none, color=black, style=dashed, constraint=false];
+    {rank=same; "G3_BLANKENSHIP_GGF"; "G3_BEASLEY_GGM"};
+    "G3_BLANKENSHIP_GGF" -> "G3_BEASLEY_GGM" [dir=none, color=black, style=dashed, constraint=false];
+    {rank=same; "G3_MUNSEY_GGF"; "G3_SCOTT_GGM"};
+    "G3_MUNSEY_GGF" -> "G3_SCOTT_GGM" [dir=none, color=black, style=dashed, constraint=false];
+    {rank=same; "G4_MCPHERSON"; "G4_NEVITT"};
+    "G4_MCPHERSON" -> "G4_NEVITT" [dir=none, color=black, style=dashed, constraint=false];
+    {rank=same; "G4_BEALL"; "G4_MAGRUDER"};
+    "G4_BEALL" -> "G4_MAGRUDER" [dir=none, color=black, style=dashed, constraint=false];
+    
+    // Parent-child relationships
+    "G1_FATHER" -> "G0_ME";
+    "G1_MOTHER" -> "G0_ME";
+    "G2_PATERNAL_GF" -> "G1_FATHER";
+    "G2_PATERNAL_GM" -> "G1_FATHER";
+    "G2_MATERNAL_GF" -> "G1_MOTHER";
+    "G2_MATERNAL_GM" -> "G1_MOTHER";
+    "G3_ELY_GGF" -> "G2_PATERNAL_GF";
+    "G3_SMITH_GGM" -> "G2_PATERNAL_GF";
+    "G3_MCPHERSON_GGF" -> "G2_PATERNAL_GM";
+    "G3_BEALL_GGM" -> "G2_PATERNAL_GM";
+    "G3_BLANKENSHIP_GGF" -> "G2_MATERNAL_GF";
+    "G3_BEASLEY_GGM" -> "G2_MATERNAL_GF";
+    "G3_MUNSEY_GGF" -> "G2_MATERNAL_GM";
+    "G3_SCOTT_GGM" -> "G2_MATERNAL_GM";
+    "G4_MCPHERSON" -> "G3_MCPHERSON_GGF";
+    "G4_NEVITT" -> "G3_MCPHERSON_GGF";
+    "G4_BEALL" -> "G3_BEALL_GGM";
+    "G4_MAGRUDER" -> "G3_BEALL_GGM";
+}

@@ -1,0 +1,64 @@
+digraph family_tree {
+    rankdir=TB;
+    bgcolor=white;
+    margin=0.1;
+    pad=0.1;
+    ranksep=0.3;
+    nodesep=0.2;
+    node [shape=box, style="filled,rounded", fontname="Arial", fontsize=10, fixedsize=false, margin=0.1];
+    edge [color=black, penwidth=1.5];
+    
+    
+    "G0_ME" [label="Elizabeth Nevitt 🔗\nb. 1695, MD\nd. ~1779, MD", fillcolor="gold", style="filled,rounded", peripheries=3, fontname="Arial Bold", URL="https://www.geni.com/people/Elizabeth-McPherson/375867648760011008", target="_blank", tooltip="", class="tree-connection"];
+    "G0_SPOUSE" [label="Daniel McPherson 🔗\nb. 1729, DC\nd. 1807, DC", fillcolor="gold", style="filled,rounded", URL="https://www.findagrave.com/memorial/37194034/george-beall", target="_blank", tooltip=""];
+    "G1_FATHER" [label="Richard R. Nevitt 🔗\nb. ~1698, MD\nd. ~1724, MD", fillcolor="lightcoral", style="filled,rounded", URL="https://www.geni.com/people/Richard-Nevitt-Sr/375879993940013206", target="_blank", tooltip=""];
+    "G1_MOTHER" [label="Mary Magdeline Montgomery 🔗\nb. 1696, MD\nd. 1774, MD", fillcolor="lightcoral", style="filled,rounded", URL="https://www.geni.com/people/Mary-McAtee/375880161770004680", target="_blank", tooltip=""];
+    "G2_NEVITT" [label="John Nevitt, Jr. 🔗\nb. ~1674, MD\nd. 1777,MD", fillcolor="lightsteelblue", style="filled,rounded", URL="https://www.geni.com/people/John-Nevitt-Jr/377488697130013809", target="_blank", tooltip=""];
+    "G2_JOY" [label="Sarah Joy 🔗\nb. 1685, MD\nd. 1737, MD", fillcolor="lightsteelblue", style="filled,rounded", URL="https://www.geni.com/people/Sarah-Nevitt/377490341010012353", target="_blank", tooltip=""];
+    "G2_MONTGOMERIE" [label="Pierre Montgomerie 🔗\nb. ~1684, France\nd. 1754, MD", fillcolor="lightsteelblue", style="filled,rounded", URL="https://www.geni.com/people/Peter-Montgomery-The-Immigrant/6000000000806475992", target="_blank", tooltip=""];
+    "G2_HAGAN" [label="Catherine Margaret Hagan 🔗\nb. ~1688, France\nd. 1726, MD", fillcolor="lightsteelblue", style="filled,rounded", URL="http://www.montyhistnotes.com/genealogy/getperson.php?personID=I230&tree=MontyHistNotes_II", target="_blank", tooltip=""];
+    "G3_NEVITT" [label="John Nevitt, Sr. 🔗\nb. 1641, MD\nd. 1713, MD", fillcolor="lightcyan", style="filled,rounded", URL="https://www.geni.com/people/John-Nevitt-Sr/377490620270013809", target="_blank", tooltip=""];
+    "G3_MARTIN" [label="Elizabeth Millicent Martin 🔗\nb. ~1655 England\nd. ~1693, MD", fillcolor="lightcyan", style="filled,rounded", URL="https://www.geni.com/people/Elizabeth-Nevitt/377490855380012301", target="_blank", tooltip=""];
+    "G3_JOY" [label="Peter Joy 🔗\nb. 1665, MD\nd. 1740, MD", fillcolor="lightcyan", style="filled,rounded", URL="https://www.geni.com/people/Peter-Joy/6000000000245770534", target="_blank", tooltip=""];
+    "G3_MILES" [label="Sarah Miles 🔗\nb. 1668, England\nd. ~1701, MD?", fillcolor="lightcyan", style="filled,rounded", URL="https://www.geni.com/people/Sarah-Joy/6000000002848730103", target="_blank", tooltip=""];
+    "G4_NEVITT" [label="Richard Nevitt, I 🔗\nb. ~1619, England\nd. 1673, MD", fillcolor="mistyrose", style="filled,rounded", URL="https://www.geni.com/people/Richard-Nevitt-I/377496654030013776", target="_blank", tooltip=""];
+    "G4_NORRISE" [label="Anne Norrise 🔗\nb. 1625, Equatorial Guinea\nd. ~1673, MD", fillcolor="mistyrose", style="filled,rounded", URL="https://www.geni.com/people/Anne-Norrise/377496945440013847", target="_blank", tooltip=""];
+    "G4_JOY" [label="Peter Joy, Sr. 🔗\nb. 1628, England\nd. 1686, MD", fillcolor="mistyrose", style="filled,rounded", URL="https://www.geni.com/people/Peter-The-Immigrant-Joy-Sr/6000000006976477465", target="_blank", tooltip=""];
+    "G4_GOLDSON" [label="Martha Goldson 🔗\nb. 1640, England\nd. ~1686, MD", fillcolor="mistyrose", style="filled,rounded", URL="https://www.geni.com/people/Martha-Joy/6000000006976413519", target="_blank", tooltip=""];
+    
+    // Tree navigation connection boxes
+    
+    // Marriage relationships and rank constraints
+    {rank=same; "G0_ME"; "G0_SPOUSE"};
+    "G0_ME" -> "G0_SPOUSE" [dir=none, color=black, style=dashed, constraint=false];
+    {rank=same; "G1_FATHER"; "G1_MOTHER"};
+    "G1_FATHER" -> "G1_MOTHER" [dir=none, color=black, style=dashed, constraint=false];
+    {rank=same; "G2_NEVITT"; "G2_JOY"};
+    "G2_NEVITT" -> "G2_JOY" [dir=none, color=black, style=dashed, constraint=false];
+    {rank=same; "G2_MONTGOMERIE"; "G2_HAGAN"};
+    "G2_MONTGOMERIE" -> "G2_HAGAN" [dir=none, color=black, style=dashed, constraint=false];
+    {rank=same; "G3_NEVITT"; "G3_MARTIN"};
+    "G3_NEVITT" -> "G3_MARTIN" [dir=none, color=black, style=dashed, constraint=false];
+    {rank=same; "G3_JOY"; "G3_MILES"};
+    "G3_JOY" -> "G3_MILES" [dir=none, color=black, style=dashed, constraint=false];
+    {rank=same; "G4_NEVITT"; "G4_NORRISE"};
+    "G4_NEVITT" -> "G4_NORRISE" [dir=none, color=black, style=dashed, constraint=false];
+    {rank=same; "G4_JOY"; "G4_GOLDSON"};
+    "G4_JOY" -> "G4_GOLDSON" [dir=none, color=black, style=dashed, constraint=false];
+    
+    // Parent-child relationships
+    "G1_FATHER" -> "G0_ME";
+    "G1_MOTHER" -> "G0_ME";
+    "G2_NEVITT" -> "G1_FATHER";
+    "G2_JOY" -> "G1_FATHER";
+    "G2_MONTGOMERIE" -> "G1_MOTHER";
+    "G2_HAGAN" -> "G1_MOTHER";
+    "G3_NEVITT" -> "G2_NEVITT";
+    "G3_MARTIN" -> "G2_NEVITT";
+    "G3_JOY" -> "G2_JOY";
+    "G3_MILES" -> "G2_JOY";
+    "G4_NEVITT" -> "G3_NEVITT";
+    "G4_NORRISE" -> "G3_NEVITT";
+    "G4_JOY" -> "G3_JOY";
+    "G4_GOLDSON" -> "G3_JOY";
+}
