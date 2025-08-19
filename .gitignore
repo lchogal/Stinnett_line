@@ -1,0 +1,27 @@
+# System files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+~$*
+*~
+
+# Backup files
+*.backup
+*.bak
+
+# Output files (optional - you may want to track these)
+# output/*.dot
+# output/*.png
+# output/*.pdf
+# output/*.svg
+# output/*.html
+
+# Quarto output files
+Stinnett_tree_files/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
