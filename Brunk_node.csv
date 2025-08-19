@@ -1,0 +1,23 @@
+﻿Person_ID,Full_Name,Generation,Chart_Display_Name,Chart_Birth_Info,Chart_Death_Info,Father_ID,Mother_ID,Spouse_ID,Chart_Marriage_Info,Primary_URL,Notes,Tree_Connection
+G0_ME,Charlotte Ann Brunk,0,Charlotte Ann Brunk,"b. 1842, VA","d. 1931, AR",G1_FATHER,G1_MOTHER,G0_SPOUSE,,https://ancestors.familysearch.org/en/K4X3-J43/charlotte-ann-brunk-ely-1842-1931,CAB also lived in LA,Brunk_node
+G0_SPOUSE,Rev. Robert N. Ely,0,Rev. Robert N. Ely,"b. 1842, VA","d. 1880, AR",,,G0_ME,,https://ancestors.familysearch.org/en/L89W-T4N/rev-robert-n-ely-1842-1880,,Ely_node
+G1_FATHER,Christopher Brunk,1,Christopher Brunk,"b. 1810, VA","d. 1895, AR",G2_PATERNAL_GF,G2_PATERNAL_GM,G1_MOTHER,"m. 1834, VA",https://ancestors.familysearch.org/en/L7FY-DXJ/christopher-%22christy%22-brunk-1810-1895,,
+G1_MOTHER,Hannah McDonald,1,Hannah McDonald,"d. 1810, VA","d. 1886, AR",,,G1_FATHER,"m. 1834, VA",https://ancestors.familysearch.org/en/L7GK-9QR/hannah-mcdonald-brunk-1810-1886,,McDonald_node
+G2_PATERNAL_GF,Jacob Brunk,2,Jacob Brunk,"b. 1784, VA","d. 1869, VA",G3_PATERNAL_GGF,G3_PATERNAL_GGM,G2_PATERNAL_GM,"m. 1806, VA",https://ancestors.familysearch.org/en/LDF4-1L3/jacob-brunk-1784-1869,,
+G2_PATERNAL_GM,Nancy Ann Shank,2,Nancy Ann Shank,"b. 1787, VA","d. 1869, VA",G3_MATERNAL_GGF,G3_MATERNAL_GGM,G2_PATERNAL_GF,"m. 1806, VA",https://ancestors.familysearch.org/en/L764-YV6/nancy-ann-shank-1787-1869,,
+G3_PATERNAL_GGF,John Brunk,3,John Brunk,"b. 1760, PA","d. 1781, MD",G4_BRUNK_GGGF,G4_STOUFFER_GGGM,G3_PATERNAL_GGM,,https://ancestors.familysearch.org/en/L2W8-8QJ/john-brunk-1760-1811,,
+G3_PATERNAL_GGM,Mary Magdalene [unknown],3,Mary Magdalene [unknown],b. 1763,d. 1717,,,G3_PATERNAL_GGF,,https://ancestors.familysearch.org/en/L764-Y1P/mary-magdalene-brunk-1763-1817,,
+G3_MATERNAL_GGF,Christian Shank,3,Christian Shank,"b. 1764, VA","d. 1834, VA",G4_SCHENK_GGGF,G4_MEYER_GGGM,G3_MATERNAL_GGM,,https://ancestors.familysearch.org/en/LHVN-DWX/christian-shank-1764-1834,,
+G3_MATERNAL_GGM,Catherine Beckner,3,Catherine Beckner,"b. 1762, PA","d. 1830, VA",G5_BECKNER_GGGF,G5_KILLIAN_GGGM,G3_MATERNAL_GGF,,https://ancestors.familysearch.org/en/KL6P-79M/catherine-beckner-1762-1830,,
+G4_BRUNK_GGGF,Jacob Brunk I,4,Jacob Brunk I,"b. 1738, PA","d. 1781, MD",,,G4_STOUFFER_GGGM,,https://ancestors.familysearch.org/en/LVPV-DQ4/jacob-brunk-i-1738-1787,,
+G4_STOUFFER_GGGM,Anna Maria Stouffer,4,Anna Maria Stouffer,"b. 1740, PA","d. 1798, VA",G5_STOUFFER_GGGGF,G5_SCHETTNER_GGGGM,G4_BRUNK_GGGF,,https://ancestors.familysearch.org/en/LV5X-7QL/anna-maria-stouffer-1740-1798,,
+G4_SCHENK_GGGF,Johanne Schenck,4,Johanne Schenck,"b. 1717, PA","d. 1791, PA",G5_SCHENK_GGGGF,G5_SCHLOETZER_GGGGM,G4_MEYER_GGGM,,,,
+G4_MEYER_GGGM,Mary Meyer,4,Mary Meyer,"b. 1718, PA","d. 1834, VA",G5_MEYER_GGGGF,G5_BERGEY_GGGGM,G4_SCHENK_GGGF,,https://ancestors.familysearch.org/en/LCR7-4B2/mary-meyer-1718-1834,,
+G5_BECKNER_GGGF,Johann Nicholas Beckner,4,Johann Nicholas Beckner,"b. 1725, Germany","d. 1812, VA",,,G5_KILLIAN_GGGM,,https://ancestors.familysearch.org/en/PSXM-S9L/johann-nicholas-beckner-1725-1812,,
+G5_KILLIAN_GGGM,Anna Maria Killian,4,Anna Maria Killian,"b. 1724, Germany","d. 1812, VA",,,G5_BECKNER_GGGF,,https://ancestors.familysearch.org/en/LX7X-ZS3/anna-maria-killian-1724-1812,,
+G5_STOUFFER_GGGGF,Jacob Stauffer,5,Jacob Stauffer,"b. 1713, Germany","1768, PA",,,G5_SCHETTNER_GGGGM,,,,
+G5_SCHETTNER_GGGGM,Magdalena Hess Schetter,5,Magdalena Hess Schetter,b. ~1715,d. ~1768,,,G5_STOUFFER_GGGGF,,,,
+G5_SCHENK_GGGGF,Michael Schenk,5,Michael Schenk,"b. 1695, Germany","d. 1759, PA",,,G5_SCHLOETZER_GGGGM,,https://ancestors.familysearch.org/en/LTBM-BS3/michael-schenck-1695-1759,,
+G5_SCHLOETZER_GGGGM,Anna Maria Schloetzer,5,Anna Maria Schloetzer,b. 1703,d. 1759,,,G5_SCHENK_GGGGF,,,,
+G5_MEYER_GGGGF,"Christian Meyer, Jr.",5,"Christian Meyer, Jr.","b. 1676, Germany","d. before 1751, PA",,,G5_BERGEY_GGGGM,,https://www.geni.com/people/Christian-Meyer-Sr/6000000002979732410?utm_source=chatgpt.com,,
+G5_BERGEY_GGGGM,Anna Barbara Bergey,5,Anna Barbara Bergey,"b. 1677, Germany","d. 1748, PA",,,G5_MEYER_GGGGF,,https://www.geni.com/people/Anna-Meyer/6000000002980069278,,

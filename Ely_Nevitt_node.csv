@@ -1,0 +1,17 @@
+﻿Person_ID,Full_Name,Generation,Chart_Display_Name,Chart_Birth_Info,Chart_Death_Info,Father_ID,Mother_ID,Spouse_ID,Chart_Marriage_Info,Primary_URL,Notes,Tree_Connection
+G0_ME,Elizabeth Nevitt,0,Elizabeth Nevitt,"b. 1695, MD","d. ~1779, MD",G1_FATHER,G1_MOTHER,G0_SPOUSE,,https://www.geni.com/people/Elizabeth-McPherson/375867648760011008,,Nevitt_node
+G0_SPOUSE,Daniel McPherson,0,Daniel McPherson,"b. 1729, DC","d. 1807, DC",,,G0_ME,,https://www.findagrave.com/memorial/37194034/george-beall,,
+G1_FATHER,Richard R. Nevitt,1,Richard R. Nevitt,"b. ~1698, MD","d. ~1724, MD",G2_NEVITT,G2_JOY,G1_MOTHER,,https://www.geni.com/people/Richard-Nevitt-Sr/375879993940013206,,
+G1_MOTHER,Mary Magdeline Montgomery,1,Mary Magdeline Montgomery,"b. 1696, MD","d. 1774, MD",G2_MONTGOMERIE,G2_HAGAN,G1_FATHER,,https://www.geni.com/people/Mary-McAtee/375880161770004680,,
+G2_NEVITT,"John Nevitt, Jr.",2,"John Nevitt, Jr.","b. ~1674, MD","d. 1777,MD",G3_NEVITT,G3_MARTIN,G2_JOY,,https://www.geni.com/people/John-Nevitt-Jr/377488697130013809,,
+G2_JOY,Sarah Joy,2,Sarah Joy,"b. 1685, MD","d. 1737, MD",G3_JOY,G3_MILES,G2_NEVITT,,https://www.geni.com/people/Sarah-Nevitt/377490341010012353,,
+G2_MONTGOMERIE,Pierre Montgomerie,2,Pierre Montgomerie,"b. ~1684, France","d. 1754, MD",,,G2_HAGAN,,https://www.geni.com/people/Peter-Montgomery-The-Immigrant/6000000000806475992,,
+G2_HAGAN,Catherine Margaret Hagan,2,Catherine Margaret Hagan,"b. ~1688, France","d. 1726, MD",,,G2_MONTGOMERIE,,http://www.montyhistnotes.com/genealogy/getperson.php?personID=I230&tree=MontyHistNotes_II,,
+G3_NEVITT,John Nevitt Sr.,7,"John Nevitt, Sr.","b. 1641, MD","d. 1713, MD",G4_NEVITT,G4_NORRISE,G3_MARTIN,,https://www.geni.com/people/John-Nevitt-Sr/377490620270013809,,
+G3_MARTIN,Elizabeth Millicent Martin,7,Elizabeth Millicent Martin,b. ~1655 England,"d. ~1693, MD",,,G3_NEVITT,,https://www.geni.com/people/Elizabeth-Nevitt/377490855380012301,,
+G3_JOY,Peter Joy,7,Peter Joy,"b. 1665, MD","d. 1740, MD",G4_JOY,G4_GOLDSON,G3_MILES,,https://www.geni.com/people/Peter-Joy/6000000000245770534,,
+G3_MILES,Sarah Miles,7,Sarah Miles,"b. 1668, England","d. ~1701, MD?",,,G3_JOY,,https://www.geni.com/people/Sarah-Joy/6000000002848730103,,
+G4_NEVITT,Richard Nevitt I,8,"Richard Nevitt, I","b. ~1619, England","d. 1673, MD",,,G4_NORRISE,,https://www.geni.com/people/Richard-Nevitt-I/377496654030013776,"immigrated on ship called ""The Ark"" which carried English Catholics fleeing persecution",
+G4_NORRISE,Anne Norrise,8,Anne Norrise,"b. 1625, Equatorial Guinea","d. ~1673, MD",,,G4_NEVITT,,https://www.geni.com/people/Anne-Norrise/377496945440013847,immigrated as an indentured servant,
+G4_JOY,Peter Joy Sr.,8,"Peter Joy, Sr.","b. 1628, England","d. 1686, MD",,,G4_GOLDSON,,https://www.geni.com/people/Peter-The-Immigrant-Joy-Sr/6000000006976477465,immigrated 1663 to St. Mary's Parish,
+G4_GOLDSON,Martha Goldson,8,Martha Goldson,"b. 1640, England","d. ~1686, MD",,,G4_JOY,,https://www.geni.com/people/Martha-Joy/6000000006976413519,immigrated 1659 to MD,

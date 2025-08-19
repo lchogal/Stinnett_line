@@ -1,0 +1,21 @@
+﻿Person_ID,Full_Name,Generation,Chart_Display_Name,Chart_Birth_Info,Chart_Death_Info,Father_ID,Mother_ID,Spouse_ID,Chart_Marriage_Info,Primary_URL,Notes,Tree_Connection
+G0_ME,Rev. Robert N. Ely,0,Rev. Robert N. Ely,"b. 1842, VA","d. 1880, AR",G1_FATHER,G1_MOTHER,G0_SPOUSE,,https://ancestors.familysearch.org/en/L89W-T4N/rev-robert-n-ely-1842-1880,,Ely_node
+G0_SPOUSE,Charlotte Ann Brunk,0,Charlotte Ann Brunk,"b. 1842, VA","d. 1931, AR",,,G0_ME,,https://ancestors.familysearch.org/en/K4X3-J43/charlotte-ann-brunk-ely-1842-1931,,Brunk_node
+G1_FATHER,George Robert Ely,1,George Robert Ely,"b. 1897, VA","d. 1880, AR",G2_PATERNAL_GF,G2_PATERNAL_GM,G1_MOTHER,"m. 1823, VA",https://ancestors.familysearch.org/en/L89W-T7Y/george-robert-ely-1797-1886,,
+G1_MOTHER,Mary Blankenship,1,Mary Blankenship,"b. 1807, VA","d. 1870, VA",G2_MATERNAL_GF,G2_MATERNAL_GM,G1_FATHER,"m. 1823, VA",https://ancestors.familysearch.org/en/L89W-R49/mary-blankenship-1807-1870,,
+G2_PATERNAL_GF,Robert Ely Sr.,2,Robert Ely Sr.,"b. 1773, VA","d. 1843, VA",G3_ELY_GGF,G3_SMITH_GGM,G2_PATERNAL_GM,,https://www.geni.com/people/Robert-Ely-Sr/6000000005427539473,,
+G2_PATERNAL_GM,Ann McPherson,2,Ann McPherson,"b. 1774, VA","d. 1846, VA",G3_MCPHERSON_GGF,G3_BEALL_GGM,G2_PATERNAL_GF,,https://www.geni.com/people/Ann-Ely/6000000001723425365,,
+G2_MATERNAL_GF,Arthur M. Blankenship,2,Arthur M. Blankenship,"b. 1770, VA","d. 1865, VA",G3_BLANKENSHIP_GGF,G3_BEASLEY_GGM,G2_MATERNAL_GM,m. 1794,https://ancestors.familysearch.org/en/LZB9-PQ7/arthur-m.-blankenship-1770-1865,,
+G2_MATERNAL_GM,Mary Francis Munsey,2,Mary Francis Munsey,"b. 1774, VA","d. 1825, VA",G3_MUNSEY_GGF,G3_SCOTT_GGM,G2_MATERNAL_GF,m. 1794,https://ancestors.familysearch.org/en/L6S9-XXK/mary-frances-munsey-1774-1825,,
+G3_ELY_GGF,Thomas Ely,3,Thomas Ely,"b. ~1725, England","d. 1782, VA",,,G3_SMITH_GGM,,https://www.findagrave.com/memorial/49964320/thomas-ely,,
+G3_SMITH_GGM,Jane Elizabeth Smith,3,Jane Elizabeth Smith,"b. 1727, Ireland","d. 1846, VA",,,G3_ELY_GGF,,https://www.geni.com/people/Jane-Ely/4630544678660020277,,
+G3_MCPHERSON_GGF,Alexander McPherson,3,Alexander McPherson,"b. 1735, MD","d. 1815, VA",G4_MCPHERSON,G4_NEVITT,G3_BEALL_GGM,,https://www.geni.com/people/Alexander-McPherson/6000000001868035392,"Founded homestead at Sinking Creek, VA",
+G3_BEALL_GGM,Mary Elizabeth Beall,3,Mary Elizabeth Beall,"b. 1746, MD","d. 1808, VA",G4_BEALL,G4_MAGRUDER,G3_MCPHERSON_GGF,,https://www.geni.com/people/Mary-McPherson/6000000000249736236,,
+G3_BLANKENSHIP_GGF,Noel Tom Blankenship,3,Noel Tom Blankenship,"b. 1746, VA","d. 1794, VA",,,G3_BEASLEY_GGM,,https://ancestors.familysearch.org/en/LZB9-PQ7/arthur-m.-blankenship-1770-1865,,
+G3_BEASLEY_GGM,Mary Elizabeth Beasley,3,Mary Elizabeth Beasley,"b. 1750, VA","d. 1845, VA",,,G3_BLANKENSHIP_GGF,,https://ancestors.familysearch.org/en/LZLV-4T5/mary-elizabeth-beasley-1750-1845,,
+G3_MUNSEY_GGF,John Skidmore Munsey,3,John Skidmore Munsey,b. 1735,d. 1797,,,G3_SCOTT_GGM,,,,
+G3_SCOTT_GGM,Mary Pickens Scott,3,Mary Pickens Scott,b. 1738,d. 1797,,,G3_MUNSEY_GGF,,,,
+G4_MCPHERSON,Daniel McPherson,4,Daniel McPherson,"b. 1701, Scotland","d. before 1740, MD",,,G4_NEVITT,,https://www.geni.com/people/Daniel-McPherson/375865516550012633,"AKA ""Donald Mac a Phearsain"". As a teen he immigrated on the ship ""Wakefield"" as a captured prisoner of the Jacobite Rising of 1715.",
+G4_NEVITT,Elizabeth Nevitt,4,Elizabeth Nevitt,"b. 1695, MD","d. ~1779, MD",,,G4_MCPHERSON,,https://www.geni.com/people/Elizabeth-McPherson/375867648760011008,,Nevitt_node
+G4_BEALL,Col. George Beall II,4,"Col. George Beall, II","b. 1729, DC","d. 1807, DC",,,G4_MAGRUDER,,https://www.findagrave.com/memorial/37194034/george-beall,"Served in Revolutionary War, Maryland Militia",Beal_node
+G4_MAGRUDER,Elizabeth Magruder,4,Elizabeth Magruder,b. 1733,d. 1774,,,G4_BEALL,,https://www.geni.com/people/Ann-Bell/6000000003703768596,,Magruder_node

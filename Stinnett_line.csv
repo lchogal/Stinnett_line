@@ -1,0 +1,21 @@
+﻿Person_ID,Full_Name,Generation,Chart_Display_Name,Chart_Birth_Info,Chart_Death_Info,Father_ID,Mother_ID,Spouse_ID,Chart_Marriage_Info,Primary_URL,Notes,Tree_Connection
+G0_ME,Sidney William Stinnett,0,Sidney William Stinnett,"b. 1911, AR","d. 1971, Germany",G1_FATHER,G1_MOTHER,G0_SPOUSE,"m. 1939, AR",,,Stinnett_line
+G0_SPOUSE,Marjorie Inez Smith,0,Marjorie Inez Smith,"b. 1920, AR","d. 1996, TX",,,G0_ME,"m. 1939, AR",,,
+G1_FATHER,James Robert Stinnett,1,James Robert Stinnett,"b. 1882, AR","d. 1970, AR",G2_PATERNAL_GF,G2_PATERNAL_GM,G1_MOTHER,"m. 1905, AR",https://ancestors.familysearch.org/en/94ZN-LGR/james-robert-stinnett-1882-1970,,
+G1_MOTHER,Lucy Alice Smith,1,Lucy Alice Smith,"b. 1883, AR","d. 1929, AR",G2_MATERNAL_GF,G2_MATERNAL_GM,G1_FATHER,"m. 1905, AR",https://ancestors.familysearch.org/en/L6PQ-JNL/lucy-alice-smith-1883-1929,,
+G2_PATERNAL_GF,Franklin Pierce Stinnett,2,Franklin Pierce Stinnett,"b. 1852, AR","d. 1899, AR",G3_STINNETT_GGF,G3_PICKETT_GGM,G2_PATERNAL_GM,"m. 1881, AR",https://ancestors.familysearch.org/en/LVY3-NS2/franklin-pierce-stinnett-1852-1899,,
+G2_PATERNAL_GM,"Lutishia ""Precious"" J Ely",2,"Lutishia ""Precious"" J Ely","b. 1866, AR","d. 1940, AR",G3_ELY_GGF,G3_BRUNK_GGM,G2_PATERNAL_GF,"m. 1881, AR",https://ancestors.familysearch.org/en/L6PQ-J8S/mary-elizabeth-ely-1867-1896,"link is for Lutishia's sister, I'm assuming they have same mother and father",
+G2_MATERNAL_GF,William C. Smith,2,William C. Smith,"b. 1852, TX","d. 1916, AR",,,G2_MATERNAL_GM,"m. ~1875, AR",https://ancestors.familysearch.org/en/LHZY-JJN/william-c-smith-1852-1916,his parents mentioned in this link do not mention living in AR or TX,
+G2_MATERNAL_GM,Victoria E. Pickett,2,Victoria E. Pickett,"b. 1858, AR","d. 1945, AR",G3_PICKET_GGF,G3_DAVENPORT_GGM,G2_MATERNAL_GF,"m. ~1875, AR",https://ancestors.familysearch.org/en/KLFH-LP8/victoria-e-pickett-1858-1945,,
+G3_STINNETT_GGF,Judge James Monroe Stinnett,3,Judge James Monroe Stinnett,"b. 1820, TN","d. 1900, AR",G4_STINNETT,G4_SMITH,G3_PICKETT_GGM,,https://www.findagrave.com/memorial/208534647/james-monroe-stinnett?utm_source=chatgpt.com,,
+G3_PICKETT_GGM,Joanna Eliza Jane Pickett,3,Joanna Eliza Jane Pickett,"b. 1830, TN","d. 1898, AR",G4_PICKET,G4_SANDERSON,G3_STINNETT_GGF,,https://www.findagrave.com/memorial/208534639/joanna_eliza_jane-stinnett,,
+G3_ELY_GGF,Rev. Robert N. Ely,3,Rev. Robert N. Ely,"b. 1842, VA","d. 1880, AR",,,G3_BRUNK_GGM,,https://ancestors.familysearch.org/en/L89W-T4N/rev-robert-n-ely-1842-1880,,Ely_node
+G3_BRUNK_GGM,Charlotte Ann Brunk,3,Charlotte Ann Brunk,"b. 1842, VA","d. 1931, AR",,,G3_ELY_GGF,,https://ancestors.familysearch.org/en/K4X3-J43/charlotte-ann-brunk-ely-1842-1931,,Brunk node
+G3_PICKET_GGF,James Montgomery Pickett,3,James Montgomery Pickett,"b. 1818, TN","d. 1895, AR",G4_PICKET,G4_SANDERSON,G3_DAVENPORT_GGM,,https://ancestors.familysearch.org/en/K2JG-7PJ/james-montgomery-pickett-1818-1895,,
+G3_DAVENPORT_GGM,Julia Ann Davenport,3,Julia Ann Davenport,b. 1824,d. 1907,,,G3_PICKET_GGF,,https://ancestors.familysearch.org/en/9V5Y-5BX/julia-ann-davenport-1824-1907,,
+G4_STINNETT,William Stinnett,4,William Stinnett,b. XXXX,"d. 1847, TN",,,G4_SMITH,,,"WS likely related to John Stinnett (1760-1831) born in VA, fought in revolutionary war with brother and father, then settled in TN",
+G4_SMITH,Catherine Smith,4,Catherine Smith,"b. 1801, TN","d. 1848, TN",,,G4_STINNETT,,,,
+G4_PICKET,Edward Charles Pickett,4,Edward Charles Pickett,"b. 1790, TN","d. 1849, TN",G5_PICKET,G5_DOLITTLE,G4_SANDERSON,,https://ancestors.familysearch.org/en/LJJN-QYZ/edward-charles-pickett-1790-1849,,
+G4_SANDERSON,Elizabeth Sanderson,4,Elizabeth Sanderson,b. 1791,d. 1850 or 1860,,,G4_PICKET,,,,
+G5_PICKET,Edward Pickett,5,Edward Pickett,b. ~1765,d. ~1827,,,G5_DOLITTLE,,,,
+G5_DOLITTLE,"Elizabeth ""Betsy"" Dolittle",5,"Elizabeth ""Betsy"" Dolittle",b. ~1775,d. ~1859,,,G5_PICKET,,,,

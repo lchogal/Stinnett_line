@@ -1,0 +1,20 @@
+﻿Person_ID,Full_Name,Generation,Chart_Display_Name,Chart_Birth_Info,Chart_Death_Info,Father_ID,Mother_ID,Spouse_ID,Chart_Marriage_Info,Primary_URL,Notes,Tree_Connection
+G0_ME,Charlotte Ann Brunk,0,Charlotte Ann Brunk,"b. 1842, VA","d. 1931, AR",G1_FATHER,G1_MOTHER,G0_SPOUSE,,https://ancestors.familysearch.org/en/K4X3-J43/charlotte-ann-brunk-ely-1842-1931,CAB also lived in LA,Brunk_node
+G0_SPOUSE,Rev. Robert N. Ely,0,Rev. Robert N. Ely,"b. 1842, VA","d. 1880, AR",,,G0_ME,,https://ancestors.familysearch.org/en/L89W-T4N/rev-robert-n-ely-1842-1880,,Ely_node
+G1_FATHER,Christopher Brunk,1,Christopher Brunk,"b. 1810, VA","d. 1895, AR",,,G1_MOTHER,"m. 1834, VA",https://ancestors.familysearch.org/en/L7FY-DXJ/christopher-%22christy%22-brunk-1810-1895,,
+G1_MOTHER,Hannah McDonald,1,Hannah McDonald,"d. 1810, VA","d. 1886, AR",G2_MATERNAL_GF,G2_MATERNAL_GM,G1_FATHER,"m. 1834, VA",https://ancestors.familysearch.org/en/L7GK-9QR/hannah-mcdonald-brunk-1810-1886,,McDonald_node
+G2_MATERNAL_GF,Fredrick S. McDonald,2,Fredrick S. McDonald,"b. 1784, VA","d. 1865, VA",G3M_PATERNAL_GGF,G3M_PATERNAL_GGM,G2_MATERNAL_GM,m. ~1805,,,
+G2_MATERNAL_GM,Sarah Elizabeth Halpain,2,Sarah Elizabeth Halpain,"b. 1782, VA","d. 1867, VA",G3M_MATERNAL_GGF,G3M_MATERNAL_GGM,G2_MATERNAL_GF,m. ~1805,,,
+G3M_PATERNAL_GGF,John W. McDonald,3,John W. McDonald,"b. 1759, VA","d. 1807, TN",,,G3M_PATERNAL_GGM,"m. ~1777, VA",https://ancestors.familysearch.org/en/L7N6-L8R/john-w.-mcdonald-1759-1807,,
+G3M_PATERNAL_GGM,Maria Sayers Smith,3,Maria Sayers Smith,"b. 1756, DE","d. 1806, VA",G5_SMITH_GGGF,G5_PAULSON_GGGM,G3M_PATERNAL_GGF,"m. ~1777, VA",https://ancestors.familysearch.org/en/LHCD-31R/maria-sayers-smith-1756-1806,,
+G3M_MATERNAL_GGF,John J. Halpain,3,John J. Halpain,"b. ~1750, PA",d. ,,,G3M_MATERNAL_GGM,,https://ancestors.familysearch.org/en/L6Q6-V5T/john-j.-halpain-1750,,
+G3M_MATERNAL_GGM,Sarah Bishop,3,Sarah Bishop,"d. 1753, PA","d. 1830, PA",G5_BISHOP_GGGF,G5_MARSHALL_GGGM,G3M_MATERNAL_GGF,,https://ancestors.familysearch.org/en/L6Q6-VGK/sarah-bishop-1753-1830,,
+G5_SMITH_GGGF,Fredric Smith,4,Fredric Smith,"b. 1727, DE","d. before 1805, VA",G5_SMIDT_GGGGF,G5_STALCOP_GGGGM,G5_PAULSON_GGGM,,https://ancestors.familysearch.org/en/LCRC-QZK/frederic-smith-1727-1806,,
+G5_PAULSON_GGGM,Margaret Paulson,4,Margaret Paulson,"b. 1729, VA","d. 1811, VA",,,G5_SMITH_GGGF,,https://ancestors.familysearch.org/en/L89M-71N/margaret-paulson-1729-1811,,
+G5_BISHOP_GGGF,John Sameul Bishop,4,John Sameul Bishop,"b. 1713, PA","d. 1789, VA",G5_BISHOP_GGGGF,,G5_MARSHALL_GGGM,,https://ancestors.familysearch.org/en/G2XR-6HZ/mary-e-marshall-1715-1800,,
+G5_MARSHALL_GGGM,Mary E. Marshall,4,Mary E. Marshall,"b. 1715, PA","d. 1800, VA",,,G5_BISHOP_GGGF,,,,
+G5_SMIDT_GGGGF,Hans Jurgen Georg Smidt,5,Hans Jurgen Georg Smidt,"b. 1696, Sweden","d. 1753, DE",,,G5_STALCOP_GGGGM,,https://ancestors.familysearch.org/en/LZVG-DSW/hans-jurgen-georg-smidt-1696-1753,,
+G5_STALCOP_GGGGM,Maria Stalcop,5,Maria Stalcop,"b. 1697, DE","d. 1750, DE",G6_STALCOP_GGGGGF,G6_PETERSSON_GGGGGM,G5_SMIDT_GGGGF,,https://ancestors.familysearch.org/en/G2XR-KTN/john-samuel-bishop-1713-1789,,
+G5_BISHOP_GGGGF,Samuel Bishop,5,Samuel Bishop,b. 1660,d. 1741,,,,,,,
+G6_STALCOP_GGGGGF,Pietter Stalcop,6,Pietter Stalcop,"b. 1664, DE","d. 1715, DE",,,G6_PETERSSON_GGGGGM,,https://ancestors.familysearch.org/en/LZ28-B2S/pietter-stalcop-1664-1715,,
+G6_PETERSSON_GGGGGM,Catharina Samuelsdotter Petersson,6,Catharina Samuelsdotter Petersson,"b. 1664, Sweden","d. 1731, DE",,,G6_STALCOP_GGGGGF,,,,
