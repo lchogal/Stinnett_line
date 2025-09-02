@@ -91,6 +91,8 @@ format:
           min-height: 400px;
         }
       }
+  pdf:
+    documentclass: scrartcl
 ---
 
 ## Stinnett line
