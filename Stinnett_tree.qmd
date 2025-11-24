@@ -1,6 +1,7 @@
 ---
-format: 
+format:
   html:
+    output-file: index.html
     theme: default
     toc: false
     page-layout: full
@@ -91,8 +92,6 @@ format:
           min-height: 400px;
         }
       }
-  pdf:
-    documentclass: scrartcl
 ---
 
 ## Stinnett line
@@ -103,55 +102,55 @@ format:
 
 <br><br>
 
-## Stinnett line/Brunk node
+## Stinnett line/Brunk branch
 
 ::: family-tree
-<object data="output/Brunk_node.html" type="text/html" style="width: 100%; height: 650px;"></object>
+<object data="output/Brunk_branch.html" type="text/html" style="width: 100%; height: 650px;"></object>
 :::
 
 <br><br>
 
-## Stinnett line/Brunk node/McDonald node
+## Stinnett line/Brunk branch/McDonald branch
 
 ::: family-tree
-<object data="output/Brunk_McDonald_node.html" type="text/html" style="width: 80%; height: 820px;"></object>
+<object data="output/Brunk_McDonald_branch.html" type="text/html" style="width: 80%; height: 820px;"></object>
 :::
 
 <br><br>
 
-## Stinnett line/Ely node
+## Stinnett line/Ely branch
 
 ::: family-tree
-<object data="output/Ely_node.html" type="text/html" style="width: 100%; height: 490px;"></object>
+<object data="output/Ely_branch.html" type="text/html" style="width: 100%; height: 490px;"></object>
 :::
 
 <br><br>
 
-## Stinnett line/Ely node/Nevitt node
+## Stinnett line/Ely branch/Nevitt branch
 
 ::: family-tree
-<object data="output/Ely_Nevitt_node.html" type="text/html" style="width: 100%; height: 620px;"></object>
+<object data="output/Ely_Nevitt_branch.html" type="text/html" style="width: 100%; height: 620px;"></object>
 :::
 
 <br><br>
 
-## Stinnett line/Ely node/Beall node
+## Stinnett line/Ely branch/Beall branch
 
 ::: family-tree
-<object data="output/Ely_Beall_node.html" type="text/html" style="width: 100%; height: 620px;"></object>
+<object data="output/Ely_Beall_branch.html" type="text/html" style="width: 100%; height: 620px;"></object>
 :::
 
 <br><br>
 
-## Stinnett line/Ely node/Magruder node
+## Stinnett line/Ely branch/Magruder branch
 
 ::: family-tree
-<object data="output/Ely_Magruder_node.html" type="text/html" style="width: 100%; height: 520px;"></object>
+<object data="output/Ely_Magruder_branch.html" type="text/html" style="width: 100%; height: 520px;"></object>
 :::
 
 ------------------------------------------------------------------------
 
-  This webpage was created by <a href="https://lchogal.github.io/cv/">Leslie Hodges Gallagher</a>, granddaughter of Sidney William Stinnett (1911-1971). Research relied heavily on AI tools (ChatGPT 5, Claude Opus 4.1) and crowd-sourced information from Geni.com, FamilySearch.org, and FindAGrave.com. The current tree, published August 2025, should be considered a working draft while primary historical sources are verified. Family tree diagrams were generated using Python 3.12.11 with Graphviz 13.0.1, with coding support from Claude Code 1.0.83.  
+  This webpage was created by <a href="https://lchogal.github.io/cv/">Leslie Hodges Gallagher</a>, granddaughter of Sidney William Stinnett (1911-1971). Research relied on crowd-sourced information from Geni.com, FamilySearch.org, and FindAGrave.com. The current tree, published November 2024, should be considered a working draft while primary historical sources are verified.  
   
   Supporting files: [GitHub repository](https://github.com/lchogal/Stinnett_line)    
   Contact: [hodges.gallagher@gmail.com](mailto:hodges.gallagher@gmail.com)  

@@ -234,7 +234,6 @@ def create_family_tree(csv_file, output_dir="output"):
     
     formats = [
         ("png", "PNG image"),
-        ("pdf", "PDF document"),
         ("svg", "SVG vector"),
         ("svg", "HTML interactive")
     ]

@@ -1,0 +1,70 @@
+digraph family_tree {
+    rankdir=TB;
+    bgcolor=white;
+    margin=0.1;
+    pad=0.1;
+    ranksep=0.3;
+    nodesep=0.2;
+    node [shape=box, style="filled,rounded", fontname="Arial", fontsize=10, fixedsize=false, margin=0.1];
+    edge [color=black, penwidth=1.5];
+    
+    
+    "G0_ME" [label="Col. George Beall, II 🔗\nb. 1729, DC\nd. 1807, DC", fillcolor="gold", style="filled,rounded", peripheries=3, fontname="Arial Bold", URL="https://www.findagrave.com/memorial/37194034/george-beall", target="_blank", tooltip="", class="tree-connection"];
+    "G0_SPOUSE" [label="Elizabeth Magruder 🔗\nb. 1733\nd. 1774", fillcolor="gold", style="filled,rounded", peripheries=3, fontname="Arial Bold", URL="https://www.findagrave.com/memorial/37194034/george-beall", target="_blank", tooltip="", class="tree-connection"];
+    "G1_FATHER" [label="Col. George Beall, Sr 🔗\nb. 1695, MD\nd. 1780, DC", fillcolor="lightcoral", style="filled,rounded", URL="https://www.findagrave.com/memorial/24747840/george-beall", target="_blank", tooltip=""];
+    "G1_MOTHER" [label="Elizabeth Brooke 🔗\nb. 1699, MD\nd. 1748, DC", fillcolor="lightcoral", style="filled,rounded", URL="https://www.findagrave.com/memorial/50217139/elizabeth-beall", target="_blank", tooltip=""];
+    "G2_PATERNAL_GF" [label="Ninian Beall, Sr. 🔗\nb. 1625, Scotland\nd. 1717, MD", fillcolor="lightsteelblue", style="filled,rounded", URL="https://www.findagrave.com/memorial/25527218/ninian-beall", target="_blank", tooltip=""];
+    "G2_PATERNAL_GM" [label="Ruth Edith \"Polly\" Moore 🔗\nb. 1638, MD\nd. 1712, MD", fillcolor="lightsteelblue", style="filled,rounded", URL="https://www.findagrave.com/memorial/85790583/ruth_edith-beall", target="_blank", tooltip=""];
+    "G2_MATERNAL_GF" [label="Col. Thomas Hatton Brooke Jr. 🔗\nb. 1659, MD\nd. 1730, MD", fillcolor="lightsteelblue", style="filled,rounded", URL="https://www.findagrave.com/memorial/33513877/thomas_hatton-brooke", target="_blank", tooltip=""];
+    "G2_MATERNAL_GM" [label="Barbara Dent 🔗\nb. 1676, MD\nd. 1754, MD", fillcolor="lightsteelblue", style="filled,rounded", URL="https://www.wikitree.com/wiki/Dent-150?utm_source=chatgpt.com", target="_blank", tooltip=""];
+    "G3_MOORE" [label="Richard Moore 🔗\nb. 1614, England\nd. 1654, MD", fillcolor="lightgreen", style="filled,rounded", URL="https://www.geni.com/people/Richard-Moore/6000000003455434488?utm_source=chatgpt.com", target="_blank", tooltip=""];
+    "G3_POTTENGER" [label="Jane Pottenger 🔗\nb. 1618, England\nd. 1655, MD", fillcolor="lightgreen", style="filled,rounded", URL="https://www.geni.com/people/Jane-Godson/6000000006900953154", target="_blank", tooltip=""];
+    "G3_DENT" [label="Thomas Dent Sr. 🔗\nb. ~1634, England\nd. before 1676, VA", fillcolor="lightgreen", style="filled,rounded", URL="https://www.wikitree.com/wiki/Dent-143", target="_blank", tooltip=""];
+    "G3_WILKINSON" [label="Rebecca Wilkinson 🔗\nb. ~1633, VA\nd. 1726, VA", fillcolor="lightgreen", style="filled,rounded", URL="https://www.wikitree.com/wiki/Wilkinson-522", target="_blank", tooltip=""];
+    "G3_BROOKE" [label="Maj. Thomas Brooke 🔗\nb. 1632, MD\nd. 1676, MD", fillcolor="lightgreen", style="filled,rounded", URL="https://www.findagrave.com/memorial/33513865/thomas-brooke", target="_blank", tooltip=""];
+    "G3_HATTON" [label="Eleanor Hatton 🔗\nb. 1640, England\nd. 1725, MD", fillcolor="lightgreen", style="filled,rounded", URL="https://www.findagrave.com/memorial/200578309/eleanor-darnall", target="_blank", tooltip=""];
+    "G4_BROOKE" [label="Robert Brooke Sr. 🔗\nb. 1602, England\nd. 1655, MD", fillcolor="wheat", style="filled,rounded", URL="https://www.findagrave.com/memorial/17908266/robert-brooke", target="_blank", tooltip=""];
+    "G4_BAKER" [label="Mary Baker 🔗\nb. 1606, England\nd. 1634, England", fillcolor="wheat", style="filled,rounded", URL="https://www.findagrave.com/memorial/39193141/mary-brooke", target="_blank", tooltip=""];
+    "G4_WILKINSON" [label="William Wilkinson 🔗\nb. ~1612, England\nd. before 1633, MD", fillcolor="wheat", style="filled,rounded", URL="https://www.wikitree.com/wiki/Wilkinson-520", target="_blank", tooltip=""];
+    "G4_HUGHES" [label="Naomi Hughes 🔗\nb. 1616, England\nd. 1648, VA", fillcolor="wheat", style="filled,rounded", URL="https://www.wikitree.com/wiki/Hughes-9127", target="_blank", tooltip=""];
+    
+    // Tree navigation connection boxes
+    
+    // Marriage relationships and rank constraints
+    {rank=same; "G0_ME"; "G0_SPOUSE"};
+    "G0_ME" -> "G0_SPOUSE" [dir=none, color=black, style=dashed, constraint=false, label="m. 1748", fontsize=10, fontcolor=black];
+    {rank=same; "G1_FATHER"; "G1_MOTHER"};
+    "G1_FATHER" -> "G1_MOTHER" [dir=none, color=black, style=dashed, constraint=false];
+    {rank=same; "G2_PATERNAL_GF"; "G2_PATERNAL_GM"};
+    "G2_PATERNAL_GF" -> "G2_PATERNAL_GM" [dir=none, color=black, style=dashed, constraint=false];
+    {rank=same; "G2_MATERNAL_GF"; "G2_MATERNAL_GM"};
+    "G2_MATERNAL_GF" -> "G2_MATERNAL_GM" [dir=none, color=black, style=dashed, constraint=false];
+    {rank=same; "G3_MOORE"; "G3_POTTENGER"};
+    "G3_MOORE" -> "G3_POTTENGER" [dir=none, color=black, style=dashed, constraint=false];
+    {rank=same; "G3_DENT"; "G3_WILKINSON"};
+    "G3_DENT" -> "G3_WILKINSON" [dir=none, color=black, style=dashed, constraint=false];
+    {rank=same; "G3_BROOKE"; "G3_HATTON"};
+    "G3_BROOKE" -> "G3_HATTON" [dir=none, color=black, style=dashed, constraint=false];
+    {rank=same; "G4_BROOKE"; "G4_BAKER"};
+    "G4_BROOKE" -> "G4_BAKER" [dir=none, color=black, style=dashed, constraint=false];
+    {rank=same; "G4_HUGHES"; "G4_WILKINSON"};
+    "G4_HUGHES" -> "G4_WILKINSON" [dir=none, color=black, style=dashed, constraint=false];
+    
+    // Parent-child relationships
+    "G1_FATHER" -> "G0_ME";
+    "G1_MOTHER" -> "G0_ME";
+    "G2_PATERNAL_GF" -> "G1_FATHER";
+    "G2_PATERNAL_GM" -> "G1_FATHER";
+    "G2_MATERNAL_GF" -> "G1_MOTHER";
+    "G2_MATERNAL_GM" -> "G1_MOTHER";
+    "G3_MOORE" -> "G2_PATERNAL_GM";
+    "G3_POTTENGER" -> "G2_PATERNAL_GM";
+    "G3_BROOKE" -> "G2_MATERNAL_GF";
+    "G3_HATTON" -> "G2_MATERNAL_GF";
+    "G3_DENT" -> "G2_MATERNAL_GM";
+    "G3_WILKINSON" -> "G2_MATERNAL_GM";
+    "G4_WILKINSON" -> "G3_DENT";
+    "G4_HUGHES" -> "G3_DENT";
+    "G4_BROOKE" -> "G3_BROOKE";
+    "G4_BAKER" -> "G3_BROOKE";
+}

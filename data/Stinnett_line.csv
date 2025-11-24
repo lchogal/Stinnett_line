@@ -1,5 +1,5 @@
 ﻿Person_ID,Full_Name,Generation,Chart_Display_Name,Chart_Birth_Info,Chart_Death_Info,Father_ID,Mother_ID,Spouse_ID,Chart_Marriage_Info,Primary_URL,Notes,Tree_Connection
-G0_ME,Sidney William Stinnett,0,Sidney William Stinnett,"b. 1911, AR","d. 1971, Germany",G1_FATHER,G1_MOTHER,G0_SPOUSE,"m. 1939, AR",,,Stinnett_line
+G0_ME,Sidney William Stinnett,0,Sidney William Stinnett,"b. 1911, AR","d. 1971, Germany",G1_FATHER,G1_MOTHER,G0_SPOUSE,"m. 1939, AR",,,
 G0_SPOUSE,Marjorie Inez Smith,0,Marjorie Inez Smith,"b. 1920, AR","d. 1996, TX",,,G0_ME,"m. 1939, AR",,,
 G1_FATHER,James Robert Stinnett,1,James Robert Stinnett,"b. 1882, AR","d. 1970, AR",G2_PATERNAL_GF,G2_PATERNAL_GM,G1_MOTHER,"m. 1905, AR",https://ancestors.familysearch.org/en/94ZN-LGR/james-robert-stinnett-1882-1970,,
 G1_MOTHER,Lucy Alice Smith,1,Lucy Alice Smith,"b. 1883, AR","d. 1929, AR",G2_MATERNAL_GF,G2_MATERNAL_GM,G1_FATHER,"m. 1905, AR",https://ancestors.familysearch.org/en/L6PQ-JNL/lucy-alice-smith-1883-1929,,

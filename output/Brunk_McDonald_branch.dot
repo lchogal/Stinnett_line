@@ -1,0 +1,72 @@
+digraph family_tree {
+    rankdir=TB;
+    bgcolor=white;
+    margin=0.1;
+    pad=0.1;
+    ranksep=0.3;
+    nodesep=0.2;
+    node [shape=box, style="filled,rounded", fontname="Arial", fontsize=10, fixedsize=false, margin=0.1];
+    edge [color=black, penwidth=1.5];
+    
+    
+    "G0_ME" [label="Charlotte Ann Brunk 🔗\nb. 1842, VA\nd. 1931, AR", fillcolor="gold", style="filled,rounded", peripheries=3, fontname="Arial Bold", URL="https://ancestors.familysearch.org/en/K4X3-J43/charlotte-ann-brunk-ely-1842-1931", target="_blank", tooltip="", class="tree-connection"];
+    "G0_SPOUSE" [label="Rev. Robert N. Ely 🔗\nb. 1842, VA\nd. 1880, AR", fillcolor="gold", style="filled,rounded", peripheries=3, fontname="Arial Bold", URL="https://ancestors.familysearch.org/en/L89W-T4N/rev-robert-n-ely-1842-1880", target="_blank", tooltip="", class="tree-connection"];
+    "G1_FATHER" [label="Christopher Brunk 🔗\nb. 1810, VA\nd. 1895, AR", fillcolor="lightcoral", style="filled,rounded", URL="https://ancestors.familysearch.org/en/L7FY-DXJ/christopher-%22christy%22-brunk-1810-1895", target="_blank", tooltip=""];
+    "G1_MOTHER" [label="Hannah McDonald 🔗\nd. 1810, VA\nd. 1886, AR", fillcolor="lightcoral", style="filled,rounded", peripheries=3, fontname="Arial Bold", URL="https://ancestors.familysearch.org/en/L7GK-9QR/hannah-mcdonald-brunk-1810-1886", target="_blank", tooltip="", class="tree-connection"];
+    "G2_MATERNAL_GF" [label="Fredrick S. McDonald\nb. 1784, VA\nd. 1865, VA", fillcolor="lightsteelblue", style="filled,rounded", tooltip=""];
+    "G2_MATERNAL_GM" [label="Sarah Elizabeth Halpain\nb. 1782, VA\nd. 1867, VA", fillcolor="lightsteelblue", style="filled,rounded", tooltip=""];
+    "G3M_PATERNAL_GGF" [label="John W. McDonald 🔗\nb. 1759, VA\nd. 1807, TN", fillcolor="lightgreen", style="filled,rounded", URL="https://ancestors.familysearch.org/en/L7N6-L8R/john-w.-mcdonald-1759-1807", target="_blank", tooltip=""];
+    "G3M_PATERNAL_GGM" [label="Maria Sayers Smith 🔗\nb. 1756, DE\nd. 1806, VA", fillcolor="lightgreen", style="filled,rounded", URL="https://ancestors.familysearch.org/en/LHCD-31R/maria-sayers-smith-1756-1806", target="_blank", tooltip=""];
+    "G3M_MATERNAL_GGF" [label="John J. Halpain 🔗\nb. ~1750, PA\nd.", fillcolor="lightgreen", style="filled,rounded", URL="https://ancestors.familysearch.org/en/L6Q6-V5T/john-j.-halpain-1750", target="_blank", tooltip=""];
+    "G3M_MATERNAL_GGM" [label="Sarah Bishop 🔗\nd. 1753, PA\nd. 1830, PA", fillcolor="lightgreen", style="filled,rounded", URL="https://ancestors.familysearch.org/en/L6Q6-VGK/sarah-bishop-1753-1830", target="_blank", tooltip=""];
+    "G5_SMITH_GGGF" [label="Fredric Smith 🔗\nb. 1727, DE\nd. before 1805, VA", fillcolor="wheat", style="filled,rounded", URL="https://ancestors.familysearch.org/en/LCRC-QZK/frederic-smith-1727-1806", target="_blank", tooltip=""];
+    "G5_PAULSON_GGGM" [label="Margaret Paulson 🔗\nb. 1729, VA\nd. 1811, VA", fillcolor="wheat", style="filled,rounded", URL="https://ancestors.familysearch.org/en/L89M-71N/margaret-paulson-1729-1811", target="_blank", tooltip=""];
+    "G5_BISHOP_GGGF" [label="John Sameul Bishop 🔗\nb. 1713, PA\nd. 1789, VA", fillcolor="wheat", style="filled,rounded", URL="https://ancestors.familysearch.org/en/G2XR-6HZ/mary-e-marshall-1715-1800", target="_blank", tooltip=""];
+    "G5_MARSHALL_GGGM" [label="Mary E. Marshall\nb. 1715, PA\nd. 1800, VA", fillcolor="wheat", style="filled,rounded", tooltip=""];
+    "G5_SMIDT_GGGGF" [label="Hans Jurgen Georg Smidt 🔗\nb. 1696, Sweden\nd. 1753, DE", fillcolor="plum", style="filled,rounded", URL="https://ancestors.familysearch.org/en/LZVG-DSW/hans-jurgen-georg-smidt-1696-1753", target="_blank", tooltip=""];
+    "G5_STALCOP_GGGGM" [label="Maria Stalcop 🔗\nb. 1697, DE\nd. 1750, DE", fillcolor="plum", style="filled,rounded", URL="https://ancestors.familysearch.org/en/G2XR-KTN/john-samuel-bishop-1713-1789", target="_blank", tooltip=""];
+    "G5_BISHOP_GGGGF" [label="Samuel Bishop\nb. 1660\nd. 1741", fillcolor="plum", style="filled,rounded", tooltip=""];
+    "G6_STALCOP_GGGGGF" [label="Pietter Stalcop 🔗\nb. 1664, DE\nd. 1715, DE", fillcolor="lightyellow", style="filled,rounded", URL="https://ancestors.familysearch.org/en/LZ28-B2S/pietter-stalcop-1664-1715", target="_blank", tooltip=""];
+    "G6_PETERSSON_GGGGGM" [label="Catharina Samuelsdotter Petersson\nb. 1664, Sweden\nd. 1731, DE", fillcolor="lightyellow", style="filled,rounded", tooltip=""];
+    
+    // Tree navigation connection boxes
+    
+    // Marriage relationships and rank constraints
+    {rank=same; "G0_ME"; "G0_SPOUSE"};
+    "G0_ME" -> "G0_SPOUSE" [dir=none, color=black, style=dashed, constraint=false];
+    {rank=same; "G1_FATHER"; "G1_MOTHER"};
+    "G1_FATHER" -> "G1_MOTHER" [dir=none, color=black, style=dashed, constraint=false, label="m. 1834, VA", fontsize=10, fontcolor=black];
+    {rank=same; "G2_MATERNAL_GF"; "G2_MATERNAL_GM"};
+    "G2_MATERNAL_GF" -> "G2_MATERNAL_GM" [dir=none, color=black, style=dashed, constraint=false, label="m. ~1805", fontsize=10, fontcolor=black];
+    {rank=same; "G3M_PATERNAL_GGF"; "G3M_PATERNAL_GGM"};
+    "G3M_PATERNAL_GGF" -> "G3M_PATERNAL_GGM" [dir=none, color=black, style=dashed, constraint=false, label="m. ~1777, VA", fontsize=10, fontcolor=black];
+    {rank=same; "G3M_MATERNAL_GGF"; "G3M_MATERNAL_GGM"};
+    "G3M_MATERNAL_GGF" -> "G3M_MATERNAL_GGM" [dir=none, color=black, style=dashed, constraint=false];
+    {rank=same; "G5_SMITH_GGGF"; "G5_PAULSON_GGGM"};
+    "G5_SMITH_GGGF" -> "G5_PAULSON_GGGM" [dir=none, color=black, style=dashed, constraint=false];
+    {rank=same; "G5_BISHOP_GGGF"; "G5_MARSHALL_GGGM"};
+    "G5_BISHOP_GGGF" -> "G5_MARSHALL_GGGM" [dir=none, color=black, style=dashed, constraint=false];
+    {rank=same; "G5_SMIDT_GGGGF"; "G5_STALCOP_GGGGM"};
+    "G5_SMIDT_GGGGF" -> "G5_STALCOP_GGGGM" [dir=none, color=black, style=dashed, constraint=false];
+    {rank=same; "G6_STALCOP_GGGGGF"; "G6_PETERSSON_GGGGGM"};
+    "G6_STALCOP_GGGGGF" -> "G6_PETERSSON_GGGGGM" [dir=none, color=black, style=dashed, constraint=false];
+    
+    // Parent-child relationships
+    "G1_FATHER" -> "G0_ME";
+    "G1_MOTHER" -> "G0_ME";
+    "G2_MATERNAL_GF" -> "G1_MOTHER";
+    "G2_MATERNAL_GM" -> "G1_MOTHER";
+    "G3M_PATERNAL_GGF" -> "G2_MATERNAL_GF";
+    "G3M_PATERNAL_GGM" -> "G2_MATERNAL_GF";
+    "G3M_MATERNAL_GGF" -> "G2_MATERNAL_GM";
+    "G3M_MATERNAL_GGM" -> "G2_MATERNAL_GM";
+    "G5_SMITH_GGGF" -> "G3M_PATERNAL_GGM";
+    "G5_PAULSON_GGGM" -> "G3M_PATERNAL_GGM";
+    "G5_BISHOP_GGGF" -> "G3M_MATERNAL_GGM";
+    "G5_MARSHALL_GGGM" -> "G3M_MATERNAL_GGM";
+    "G5_SMIDT_GGGGF" -> "G5_SMITH_GGGF";
+    "G5_STALCOP_GGGGM" -> "G5_SMITH_GGGF";
+    "G5_BISHOP_GGGGF" -> "G5_BISHOP_GGGF";
+    "G6_STALCOP_GGGGGF" -> "G5_STALCOP_GGGGM";
+    "G6_PETERSSON_GGGGGM" -> "G5_STALCOP_GGGGM";
+}

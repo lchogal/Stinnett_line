@@ -9,7 +9,7 @@ This project combines genealogical research with modern visualization tools to c
 ## Features
 
 - Converts CSV genealogy data to Graphviz DOT format
-- Generates family trees in multiple formats (PNG, PDF, SVG, HTML)
+- Generates family trees in multiple formats (PNG, SVG, HTML)
 - Interactive web display with clickable hyperlinks to genealogy sources
 - Color-coded generations for easy visualization (10 generation support)
 - Optimized layout with improved spacing and readability
@@ -23,7 +23,7 @@ This project combines genealogical research with modern visualization tools to c
 
 ## Methodology
 
-Genealogy data was collected through online searches with assistance from AI tools (ChatGPT 5 and Claude Opus 4.1). Research relied heavily on crowd-sourced information from:
+Genealogy data was collected through online searches with assistance from AI tools (ChatGPT and Claude). Research relied heavily on crowd-sourced information from:
 - [Geni.com](https://geni.com)
 - [FamilySearch.org](https://familysearch.org) 
 - [FindAGrave.com](https://findagrave.com)
@@ -32,10 +32,10 @@ Genealogy data was collected through online searches with assistance from AI too
 
 ## Technical Requirements
 
-- Python 3.12.11+
+- Python 3.11.5+
 - pandas
-- Graphviz 13.0.1+ (for image generation)
-- Quarto 1.6.42+ (for interactive webpage generation)
+- Graphviz 14.0.4+ (for image generation)
+- Quarto 1.3+ (for interactive webpage generation)
 
 ## Installation
 
@@ -93,7 +93,6 @@ Your CSV should include these columns:
 For each CSV file, the script generates:
 - `.dot` file - Graphviz source code
 - `.png` file - High-resolution PNG image
-- `.pdf` file - Vector PDF document
 - `.svg` file - Scalable SVG vector graphic
 - `.html` file - Interactive HTML with embedded SVG and clickable links
 
@@ -114,10 +113,10 @@ The main project also includes:
 ## Technical Attribution
 
 Family tree diagrams were generated using:
-- **Python 3.12.11** with Graphviz 13.0.1
-- **Coding support**: Claude Code 1.0.83 (Anthropic)
-- **Webpage rendering**: Quarto 1.6.42 (Posit)
-- **Research assistance**: ChatGPT 5 (OpenAI) and Claude Opus 4.1 (Anthropic)
+- **Python 3.11.5** with Graphviz 14.0.4
+- **Coding support**: Claude Code (Anthropic)
+- **Webpage rendering**: Quarto 1.3+ (Posit)
+- **Research assistance**: ChatGPT (OpenAI) and Claude (Anthropic)
 
 ## Contact & Corrections
 
