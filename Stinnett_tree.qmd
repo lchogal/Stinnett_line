@@ -148,12 +148,7 @@ format:
 <object data="output/Ely_Magruder_branch.html" type="text/html" style="width: 100%; height: 520px;"></object>
 :::
 
-------------------------------------------------------------------------
-
-  This webpage was created by <a href="https://lchogal.github.io/cv/">Leslie Hodges Gallagher</a>, granddaughter of Sidney William Stinnett (1911-1971). Research relied on crowd-sourced information from Geni.com, FamilySearch.org, and FindAGrave.com. The current tree, published November 2024, should be considered a working draft while primary historical sources are verified.  
-  
-  Supporting files: [GitHub repository](https://github.com/lchogal/Stinnett_line)    
-  Contact: [hodges.gallagher@gmail.com](mailto:hodges.gallagher@gmail.com)  
+This webpage was created by <a href="https://lchogal.github.io/cv/">Leslie Hodges Gallagher</a>, granddaughter of Sidney William Stinnett (1911-1971). Research relied on crowd-sourced information from Geni.com, FamilySearch.org, and FindAGrave.com. The current tree, published November 2024, should be considered a working draft while primary historical sources are verified. Family tree diagrams generated using Python with Graphviz. Supporting files can be found in the [GitHub repository](https://github.com/lchogal/Stinnett_line). If you have questions or find issues, please contact [hodges.gallagher@gmail.com](mailto:hodges.gallagher@gmail.com).  
 
 
 
