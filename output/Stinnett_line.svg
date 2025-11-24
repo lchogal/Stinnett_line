@@ -277,7 +277,7 @@
 <title>G4_STINNETT</title>
 <path fill="wheat" stroke="black" d="M71.4,-367.87C71.4,-367.87 12,-367.87 12,-367.87 6,-367.87 0,-361.87 0,-355.87 0,-355.87 0,-329.47 0,-329.47 0,-323.47 6,-317.47 12,-317.47 12,-317.47 71.4,-317.47 71.4,-317.47 77.4,-317.47 83.4,-323.47 83.4,-329.47 83.4,-329.47 83.4,-355.87 83.4,-355.87 83.4,-361.87 77.4,-367.87 71.4,-367.87"/>
 <text xml:space="preserve" text-anchor="middle" x="41.7" y="-351.17" font-family="Arial" font-size="10.00">William Stinnett</text>
-<text xml:space="preserve" text-anchor="middle" x="41.7" y="-339.17" font-family="Arial" font-size="10.00">b. XXXX</text>
+<text xml:space="preserve" text-anchor="middle" x="41.7" y="-339.17" font-family="Arial" font-size="10.00">b.</text>
 <text xml:space="preserve" text-anchor="middle" x="41.7" y="-327.17" font-family="Arial" font-size="10.00">d. 1847, TN</text>
 </g>
 <!-- G4_STINNETT&#45;&gt;G3_STINNETT_GGF -->

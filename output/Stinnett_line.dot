@@ -23,7 +23,7 @@ digraph family_tree {
     "G3_BRUNK_GGM" [label="Charlotte Ann Brunk 🔗\nb. 1842, VA\nd. 1931, AR", fillcolor="lightgreen", style="filled,rounded", peripheries=3, fontname="Arial Bold", URL="https://ancestors.familysearch.org/en/K4X3-J43/charlotte-ann-brunk-ely-1842-1931", target="_blank", tooltip="", class="tree-connection"];
     "G3_PICKET_GGF" [label="James Montgomery Pickett 🔗\nb. 1818, TN\nd. 1895, AR", fillcolor="lightgreen", style="filled,rounded", URL="https://ancestors.familysearch.org/en/K2JG-7PJ/james-montgomery-pickett-1818-1895", target="_blank", tooltip=""];
     "G3_DAVENPORT_GGM" [label="Julia Ann Davenport 🔗\nb. 1824\nd. 1907", fillcolor="lightgreen", style="filled,rounded", URL="https://ancestors.familysearch.org/en/9V5Y-5BX/julia-ann-davenport-1824-1907", target="_blank", tooltip=""];
-    "G4_STINNETT" [label="William Stinnett\nb. XXXX\nd. 1847, TN", fillcolor="wheat", style="filled,rounded", tooltip=""];
+    "G4_STINNETT" [label="William Stinnett\nb.\nd. 1847, TN", fillcolor="wheat", style="filled,rounded", tooltip=""];
     "G4_SMITH" [label="Catherine Smith\nb. 1801, TN\nd. 1848, TN", fillcolor="wheat", style="filled,rounded", tooltip=""];
     "G4_PICKET" [label="Edward Charles Pickett 🔗\nb. 1790, TN\nd. 1849, TN", fillcolor="wheat", style="filled,rounded", URL="https://ancestors.familysearch.org/en/LJJN-QYZ/edward-charles-pickett-1790-1849", target="_blank", tooltip=""];
     "G4_SANDERSON" [label="Elizabeth Sanderson\nb. 1791\nd. 1850 or 1860", fillcolor="wheat", style="filled,rounded", tooltip=""];
