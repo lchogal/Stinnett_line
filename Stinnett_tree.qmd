@@ -1,98 +1,83 @@
 ---
+title: ""
 format:
   html:
     output-file: index.html
-    theme: default
+    theme: none
     toc: false
     page-layout: full
-    css: |
-      body {
-        max-width: 100%;
-        margin: 0;
-        padding: 0;
-      }
-      
-      .quarto-container {
-        max-width: 100%;
-        margin: 0;
-        padding: 0;
-      }
-      
-      .family-tree {
-        max-width: 100%;
-        height: auto;
-        margin: 1em 0;
-        border: 1px solid #ddd;
-        box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-        border-radius: 8px;
-        padding: 0.5em;
-        background-color: #fafafa;
-      }
-      
-      .family-tree svg {
-        width: 100%;
-        height: auto;
-        display: block;
-        margin: 0 auto;
-        min-height: 600px;
-      }
-      
-      .family-tree img {
-        width: 100%;
-        height: auto;
-        display: block;
-        margin: 0 auto;
-        min-height: 600px;
-      }
-      
-      /* Interactive hover effects only for tree connections */
-      .tree-connection {
-        transition: all 0.3s ease;
-        cursor: pointer;
-      }
-      
-      .tree-connection:hover {
-        transform: scale(1.05);
-        filter: drop-shadow(0 4px 8px rgba(0,0,0,0.3));
-      }
-      
-      .tree-connection:hover path {
-        stroke-width: 3 !important;
-      }
-      
-      .tree-connection:hover text {
-        font-weight: bold;
-        font-size: 11px;
-      }
-      
-      .tree-description {
-        margin-top: 1em;
-        padding: 1em;
-        background-color: #f8f9fa;
-        border-left: 4px solid #007bff;
-        font-style: italic;
-      }
-      
-      h1, h2, h3 {
-        color: #333;
-        border-bottom: 2px solid #007bff;
-        padding-bottom: 0.5em;
-        text-align: center;
-        margin: 1em 0;
-      }
-      
-      @media (max-width: 768px) {
-        .family-tree {
-          margin: 0.5em 0;
-          padding: 0.3em;
-        }
-        
-        .family-tree svg,
-        .family-tree img {
-          min-height: 400px;
-        }
-      }
 ---
+
+<style>
+#title-block-header, #quarto-header, header, .sidebar, nav, #TOC {
+  display: none !important;
+}
+
+body {
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.quarto-container {
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.family-tree {
+  max-width: 100%;
+  height: auto;
+  margin: 1em 0;
+  border: 1px solid #ddd;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  border-radius: 8px;
+  padding: 0.5em;
+  background-color: #fafafa;
+}
+
+.family-tree svg {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  min-height: 600px;
+}
+
+.family-tree img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  min-height: 600px;
+}
+
+h1, h2, h3 {
+  color: #333;
+  border-bottom: 2px solid #007bff;
+  padding-bottom: 0.5em;
+  text-align: center;
+  margin: 1em 0;
+}
+
+footer, .footer {
+  position: static !important;
+  margin-top: 2em;
+  padding: 1em;
+}
+
+@media (max-width: 768px) {
+  .family-tree {
+    margin: 0.5em 0;
+    padding: 0.3em;
+  }
+
+  .family-tree svg,
+  .family-tree img {
+    min-height: 400px;
+  }
+}
+</style>
 
 ## Stinnett line
 
@@ -100,23 +85,17 @@ format:
 <object data="output/Stinnett_line.html" type="text/html" style="width: 100%; height: 610px;"></object>
 :::
 
-<br><br>
-
 ## Stinnett line/Brunk branch
 
 ::: family-tree
 <object data="output/Brunk_branch.html" type="text/html" style="width: 100%; height: 650px;"></object>
 :::
 
-<br><br>
-
 ## Stinnett line/Brunk branch/McDonald branch
 
 ::: family-tree
-<object data="output/Brunk_McDonald_branch.html" type="text/html" style="width: 80%; height: 820px;"></object>
+<object data="output/Brunk_McDonald_branch.html" type="text/html" style="width: 100%; height: 820px;"></object>
 :::
-
-<br><br>
 
 ## Stinnett line/Ely branch
 
@@ -124,15 +103,11 @@ format:
 <object data="output/Ely_branch.html" type="text/html" style="width: 100%; height: 490px;"></object>
 :::
 
-<br><br>
-
 ## Stinnett line/Ely branch/Nevitt branch
 
 ::: family-tree
 <object data="output/Ely_Nevitt_branch.html" type="text/html" style="width: 100%; height: 620px;"></object>
 :::
-
-<br><br>
 
 ## Stinnett line/Ely branch/Beall branch
 
@@ -140,17 +115,14 @@ format:
 <object data="output/Ely_Beall_branch.html" type="text/html" style="width: 100%; height: 620px;"></object>
 :::
 
-<br><br>
-
 ## Stinnett line/Ely branch/Magruder branch
 
 ::: family-tree
 <object data="output/Ely_Magruder_branch.html" type="text/html" style="width: 100%; height: 520px;"></object>
 :::
 
-This webpage was created by <a href="https://lchogal.github.io/cv/">Leslie Hodges Gallagher</a>, granddaughter of Sidney William Stinnett (1911-1971). Research relied on crowd-sourced information from Geni.com, FamilySearch.org, and FindAGrave.com. The current tree, published November 2024, should be considered a working draft while primary historical sources are verified. Family tree diagrams generated using Python with Graphviz. Supporting files can be found in the [GitHub repository](https://github.com/lchogal/Stinnett_line). If you have questions or find issues, please contact [hodges.gallagher@gmail.com](mailto:hodges.gallagher@gmail.com).  
+---
 
-
-
-
-
+::: {style="margin: 1em 0; padding: 0.5em; max-width: 100%;"}
+This webpage was created by <a href="https://lchogal.github.io/cv/">Leslie Hodges Gallagher</a>, granddaughter of Sidney William Stinnett (1911-1971). Research relied on crowd-sourced information from Geni.com, FamilySearch.org, and FindAGrave.com. The current tree, published January 2026, should be considered a working draft while primary historical sources are verified. Family tree diagrams were generated using Python with Graphviz. Supporting files can be found in the [GitHub repository](https://github.com/lchogal/Stinnett_line). If you have questions or find issues, please contact [hodges.gallagher@gmail.com](mailto:hodges.gallagher@gmail.com).
+:::
