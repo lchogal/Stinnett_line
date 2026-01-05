@@ -82,25 +82,25 @@ footer, .footer {
 ## Stinnett line
 
 ::: family-tree
-<object data="output/Stinnett_line.html" type="text/html" style="width: 100%; height: 610px;"></object>
+<object data="output/Stinnett_line.html" type="text/html" style="width: 100%; height: 700px;"></object>
 :::
 
 ## Stinnett line/Brunk branch
 
 ::: family-tree
-<object data="output/Brunk_branch.html" type="text/html" style="width: 100%; height: 650px;"></object>
+<object data="output/Brunk_branch.html" type="text/html" style="width: 100%; height: 800px;"></object>
 :::
 
 ## Stinnett line/Brunk branch/McDonald branch
 
 ::: family-tree
-<object data="output/Brunk_McDonald_branch.html" type="text/html" style="width: 100%; height: 820px;"></object>
+<object data="output/Brunk_McDonald_branch.html" type="text/html" style="width: 100%; height: 900px;"></object>
 :::
 
 ## Stinnett line/Ely branch
 
 ::: family-tree
-<object data="output/Ely_branch.html" type="text/html" style="width: 100%; height: 490px;"></object>
+<object data="output/Ely_branch.html" type="text/html" style="width: 100%; height: 550px;"></object>
 :::
 
 ## Stinnett line/Ely branch/Nevitt branch
@@ -118,7 +118,7 @@ footer, .footer {
 ## Stinnett line/Ely branch/Magruder branch
 
 ::: family-tree
-<object data="output/Ely_Magruder_branch.html" type="text/html" style="width: 100%; height: 520px;"></object>
+<object data="output/Ely_Magruder_branch.html" type="text/html" style="width: 100%; height: 700px;"></object>
 :::
 
 ---
